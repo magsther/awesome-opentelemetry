@@ -64,13 +64,26 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 ## Videos
 - [OpenTelemetry Twitch](https://www.twitch.tv/opentelemetry)
 - [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/)
+- [Honeycomb & OpenTelemetry: Instrumentation Should Be Boring](https://www.youtube.com/watch?v=bsVyry8U47Q)
 - [OpenTelemetry Course - Understand Software Performance](https://www.youtube.com/watch?v=r8UvWSX3KA8&t=2969s)
 - [How OpenTelemetry is Eating the World](https://www.youtube.com/watch?v=DbaO0Xxv34c)
+- [OpenTelemetry Agent and Collector: Telemetry Built-in Into All Software](https://www.youtube.com/watch?v=cHiFSprUqa0)
+- [Introduction to Tracing : OpenTelemetry & Opentracing](https://www.youtube.com/watch?v=idDu_jXqf4E)
+- [OpenTelemetry and observability at Shopify, Splunk, and Google](https://www.youtube.com/watch?v=S_L0ohIJuF0)
+- [Live Panel: OpenTelemetry Metrics Deep Dive](https://www.youtube.com/watch?v=L-Ss8PtWlRA)
+- [Monitoring Go Applications with OpenTelemetry](https://www.youtube.com/watch?v=R3A3BjpMi6k)
+- [Getting Started with OpenTelemetry, Grafana, and More](https://www.youtube.com/watch?v=ifwfyMNcMiM)
+- [Monitoring Elixir With OpenTelemetry](https://www.youtube.com/watch?v=4OBtc_eIKIE)
+- [Honeycomb - OpenTelemetry Collector](https://www.youtube.com/watch?v=7T2SdvYW-eI)
+- [OpenTelemetry Architecture Overview](https://www.youtube.com/watch?v=O-9gV3xuqwg)
 - [Jaeger Intro - Yuri Shkuro, Uber](https://www.youtube.com/watch?v=UNqilb9_zwY)
 - [OpenTelemetry and observability at Shopify, Splunk, and Google](https://www.youtube.com/watch?v=S_L0ohIJuF0)
 - [Understanding Microservices with Distributed Tracing](https://www.youtube.com/watch?v=URCLeycMrhU)
 - [OpenTelemetry Deep Dive](https://www.youtube.com/playlist?list=PLv9DlQuUaXQc7PWxyGuJJnHE856zJYpse)
-
+- [OpenTelemetry Java Auto-Instrumentation](https://www.youtube.com/watch?v=88ZjCbT6LPc)
+- [Distributed Tracing Made Easy with .NET Core and OpenTelemetry](https://www.youtube.com/watch?v=s9UNr1oEMl4)
+- [Getting Started with OpenTelemetry in Python](https://www.youtube.com/watch?v=WS-iDN2BOMs)
+- [Standardising APM with OpenTelemetry and Elastic Observability](https://www.youtube.com/watch?v=Y6kQEhCvThU)
 
 ## Distributed Tracing Solutions
 
@@ -124,9 +137,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 
 ## Quickstart
-- [Jaeger](https://www.jaegertracing.io/docs/1.31/getting-started/)
 - [OpenTelemetry](https://opentelemetry.io/docs/concepts/)
-- [Zipkin](https://zipkin.io/pages/quickstart.html) 
 - [Aspecto](https://docs.aspecto.io/v1/getting-started/quick-start) **Vendor**
 - [AWS X-Ray](https://aws.amazon.com/xray/getting-started/) **Vendor**
 - [Datadog](https://docs.datadoghq.com/getting_started/tracing/) **Vendor**
@@ -232,8 +243,7 @@ Visualizing the distributed tracing data.
 
 ## Events
 - [CNCF](https://www.cncf.io/events/) - CNCF Events
-- [Lightstep](https://lightstep.com/events) -  Join the Lightstep team at our next event!
-
+- [SREcon](https://www.usenix.org/conference/srecon22americas)
 
 ## Twitter
 - [Opentelemetry](https://twitter.com/opentelemetry)
@@ -242,6 +252,7 @@ Visualizing the distributed tracing data.
 - [Kubernetesio](https://twitter.com/kubernetesio)
 - [JaegerTracing](https://twitter.com/JaegerTracing)
 - [CNCF](https://twitter.com/CloudNativeFdn)
+- [SREcon](https://twitter.com/srecon)
 - [LightstepHQ](https://twitter.com/LightstepHQ)
 - [Yuri Shkuro](https://twitter.com/YuriShkuro) - Creator of Jaeger
 - [Ted Young](https://twitter.com/tedsuo) - Co-founded the OpenTelemetry project
@@ -252,10 +263,7 @@ Visualizing the distributed tracing data.
 
 ## Case Studies
 - [CNCF](https://www.cncf.io/case-studies/)
-- [Lightstep success stories](https://lightstep.com/customers#case-studies)
-
 
 ## Community
-- [Zipkin](https://zipkin.io/pages/community.html)
 - [OpenTelemetry](https://github.com/open-telemetry/community)
 - [CNCF](https://cloud-native.slack.com)
