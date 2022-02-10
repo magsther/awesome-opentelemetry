@@ -26,6 +26,33 @@ OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, ge
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
 
+## Contents
+
+- [Books](#books)
+- [Videos](#videos)
+- [Distributed Tracing Solutions](#distributed-tracing-solutions)
+  * [Open Source](#open-source)
+  * [Vendors](#vendors)
+- [Blogs](#blogs)
+- [Terminology](#terminology)
+- [Quickstart](#quickstart)
+- [OpenTelemetry Instrumentation](#opentelemetry-instrumentation)
+  * [Native - Supported Languages](#native---supported-languages)
+  * [Vendors Distro](#vendors-distro)
+- [Components](#components)
+  * [Client](#client)
+  * [Agent](#agent)
+  * [Collector](#collector)
+  * [Storage](#storage)
+  * [Ingester](#ingester)
+  * [UI](#ui)
+- [Newsletters](#newsletters)
+- [Podcasts](#podcasts)
+- [Events](#events)
+- [Twitter](#twitter)
+- [Case Studies](#case-studies)
+- [Community](#community)
+
 ## Books
 
 - [Distributed Tracing in Practice](https://www.oreilly.com/library/view/distributed-tracing-in/9781492056621/)
