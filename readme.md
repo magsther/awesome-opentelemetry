@@ -71,12 +71,10 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Honeycomb](https://www.honeycomb.io/blog/) - Blog posts about observability, monitoring, OpenTelemetry, and more.
 - [Aspecto](https://www.aspecto.io/blog/) - Blog posts About All the Observability Trends
 - [Jaeger](https://medium.com/jaegertracing/latest) - Blog posts from Jaeger
-- [Medium](https://medium.com/tag/distributed-tracing) - Medium posts about Distributed Tracing
-- [Dev.to](https://dev.to/search?q=distributed%20tracing) - Dev.to posts about Distributed Tracing
-- [Deploying Jaeger on Kubernetes](https://dev.to/search?q=distributed%20tracing) - A Guide to Deploying Jaeger on Kubernetes in Production
-- [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates Distributed Tracing
+- [Medium](https://medium.com/opentelemetry) - Medium posts about OpenTelemetry
+- [Dev.to](https://dev.to/search?q=OpenTelemetry) - Dev.to posts about OpenTelemetry
+- [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates OpenTelemetry
 - [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da)
-- [Take Jaeger for a HotROD ride](https://medium.com/jaegertracing/take-jaeger-for-a-hotrod-ride-233cf43e46c2)
 - [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/)
 - [What is OpenTelemetry?](https://codeboten.medium.com/what-is-opentelemetry-6a7e5c6901c5)
 - [Signoz](https://signoz.io/blog/) - News & updates on observability and application monitoring.
@@ -86,7 +84,6 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Deep Dive into Open Telemetry for .NET](https://rehansaeed.com/deep-dive-into-open-telemetry-for-net/)
 - [What is OpenTelemetry and why is it the future of instrumentation?](https://www.cncf.io/blog/2021/08/06/what-is-opentelemetry-and-why-is-it-the-future-of-instrumentation/)
 - [Distributed Tracing with OpenTelemetry and Jaeger](https://iqfarhad.medium.com/distributed-tracing-with-opentelemetry-and-jaeger-e21e53b5c24e)
-- [Distributed Tracing Infrastructure with Jaeger on Kubernetes](https://medium.com/@masroor.hasan/tracing-infrastructure-with-jaeger-on-kubernetes-6800132a677)
 - [Understanding OpenTelemetry and distributed tracing](https://medium.com/swlh/distributed-tracing-with-opentelemetry-part-1-6719df95a364)
 - [Distributed tracing and observability](https://www.dynatrace.com/news/blog/open-observability-part-1-distributed-tracing-and-observability/)
 - [An Introduction to Distributed Tracing](https://www.honeycomb.io/blog/an-introduction-to-distributed-tracing/)
@@ -155,34 +152,29 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 ### Client
 Client libraries used to instrument applications for distributed tracing.
 
-- [Jaeger](https://www.jaegertracing.io/docs/1.31/client-libraries/)
 - [OpenTelemetry](https://opentelemetry.io/docs/concepts/instrumenting-library/)
-- [Zipkin](https://zipkin.io/pages/tracers_instrumentation) 
 
 
 ### Agent
 An agent listens for spans, which it batches and sends to the Collector. The agent is meant to be placed on the same host as the instrumented application. This is typically accomplished by having a sidecar in container environments such as Kubernetes or running it as a DaemonSet (on each node).
 
-- [Jaeger](https://www.jaegertracing.io/docs/1.31/deployment/)
 - [OpenTelemetry](https://opentelemetry.io/docs/collector/getting-started/)
-- [Zipkin](https://zipkin.io) 
 
 ### Collector
 Similar to the Agent, the Collector is able to receive spans and place them in an internal queue for processing.
+
+The OpenTelemetry [collector](https://opentelemetry.io/docs/collector/) is a **vendor-agnostic** way to receive, process and export telemetry data.
  
 The Collector consists of three components that access telemetry data:
  - [Receivers](https://opentelemetry.io/docs/collector/configuration/#receivers) - How data gets into the Collector
  - [Processors](https://opentelemetry.io/docs/collector/configuration/#processors) - Processors are run on data between being received and being exported.
  - [Exporters](https://opentelemetry.io/docs/collector/configuration/#exporters) - How you send data to one or more backends/destinations
  
-**Collection of Collectors**
-- [OpenTelemetry](https://opentelemetry.io/docs/collector/) - Vendor-agnostic way to receive, process and export telemetry data.
-- [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) - Vendor specific receivers/exporters 
-- [Jaeger](https://www.jaegertracing.io/docs/1.29/deployment/)
-- [Zipkin](https://zipkin.io/pages/extensions_choices)
+For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
+
 
 ### Storage
-Collectors require a persistent storage backend.
+The OpenTelemetry collectors require a persistent storage backend.
 
 - [Cassandra](https://cassandra.apache.org/_/index.html) - open source NoSQL distributed database 
 - [Elasticsearch](https://www.elastic.co) - open search and analytics solution
@@ -192,7 +184,7 @@ Collectors require a persistent storage backend.
 
 
 ### Ingester
-Ingester is a service that reads data from Kafka and writes to the storage backend.
+You can optional use an **Ingester**, which is a service that reads data from Kafka and writes to the storage backend.
 
 - [Kafka](https://kafka.apache.org) - open-source distributed event streaming platform
 
