@@ -5,13 +5,13 @@ A curated list of OpenTelemetry resources.
 **What is OpenTelemetry?**
 OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) to help you analyze your software’s performance and behavior
 
-![Otel](otel-ref.png)
+**Reference Architecture**
 
-Reference Architecture
+![Otel](otel-ref.png)
 
 ---
 
-Otel Collector
+**Otel Collector**
 
 ![Otel](otel-collector.png)
 
