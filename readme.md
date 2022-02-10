@@ -7,7 +7,11 @@ OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, ge
 
 ![Otel](otel-ref.png)
 
+Reference Architecture
+
 ---
+
+Otel Collector
 
 ![Otel](otel-collector.png)
 
