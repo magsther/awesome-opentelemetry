@@ -230,6 +230,18 @@ The Collector consists of three components that access telemetry data:
  
 For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
+#### Receivers
+> A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. [source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md)
+
+
+[List of supported receivers](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver)
+
+
+
+#### Processors
+
+#### Exporters
+
 ### Storage
 The OpenTelemetry collectors require a persistent storage backend.
 
