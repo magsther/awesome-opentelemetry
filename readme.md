@@ -220,10 +220,6 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 ## Components
 
-### OpenTelemetry Client Architecture
-![OpenTelemetry Client Architecture](otel-specification.png)
-
-Refer from OpenTelemetry Official Document
 
 ### Client
 Client libraries used to instrument applications for distributed tracing.
@@ -233,6 +229,15 @@ Client libraries used to instrument applications for distributed tracing.
 **Other Libraries**
 - [Jaeger](https://www.jaegertracing.io/docs/1.31/client-libraries/)
 - [Zipkin](https://zipkin.io/pages/tracers_instrumentation) 
+
+---
+
+### OpenTelemetry Client Architecture
+![OpenTelemetry Client Architecture](otel-specification.png)
+
+Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md)
+
+---
 
 ### Agent
 An agent listens for spans, which it batches and sends to the Collector. The agent is meant to be placed on the same host as the instrumented application. This is typically accomplished by having a sidecar in container environments such as Kubernetes or running it as a DaemonSet (on each node).
