@@ -201,6 +201,9 @@ An agent listens for spans, which it batches and sends to the Collector. The age
 
 - [OpenTelemetry](https://opentelemetry.io/docs/collector/getting-started/)
 
+### OTLP
+Protocol for transmitting telemetry data
+
 ### Collector
 Similar to the Agent, the Collector is able to receive spans and place them in an internal queue for processing.
 
@@ -212,7 +215,6 @@ The Collector consists of three components that access telemetry data:
  - [Exporters](https://opentelemetry.io/docs/collector/configuration/#exporters) - How you send data to one or more backends/destinations
  
 For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
-
 
 ### Storage
 The OpenTelemetry collectors require a persistent storage backend.
