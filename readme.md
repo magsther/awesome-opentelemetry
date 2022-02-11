@@ -86,6 +86,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Honeycomb - OpenTelemetry Collector](https://www.youtube.com/watch?v=7T2SdvYW-eI)
 - [OpenTelemetry Architecture Overview](https://www.youtube.com/watch?v=O-9gV3xuqwg)
 - [Jaeger Intro - Yuri Shkuro, Uber](https://www.youtube.com/watch?v=UNqilb9_zwY)
+- [Prometheus, OpenMetrics, and the CNCF observability ecosystem](https://www.youtube.com/watch?v=j3nFFHSosnI)
 - [OpenTelemetry and observability at Shopify, Splunk, and Google](https://www.youtube.com/watch?v=S_L0ohIJuF0)
 - [Understanding Microservices with Distributed Tracing](https://www.youtube.com/watch?v=URCLeycMrhU)
 - [OpenTelemetry Deep Dive](https://www.youtube.com/playlist?list=PLv9DlQuUaXQc7PWxyGuJJnHE856zJYpse)
@@ -213,8 +214,16 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 [Vendors Supporting OpenTelemetry](https://opentelemetry.io/vendors/)
 
+## OpenTelemetry Registry
+> The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to search for instrumentation libraries, tracer implementations, utilities, and other useful projects in the OpenTelemetry ecosystem.
+
 
 ## Components
+
+### OpenTelemetry Client Architecture
+![OpenTelemetry Client Architecture](otel-specification.png)
+
+Refer from OpenTelemetry Official Document
 
 ### Client
 Client libraries used to instrument applications for distributed tracing.
@@ -231,7 +240,9 @@ An agent listens for spans, which it batches and sends to the Collector. The age
 - [OpenTelemetry](https://opentelemetry.io/docs/collector/getting-started/)
 
 ### OTLP
-Protocol for transmitting telemetry data
+OTLP is the default OpenTelemetry protocol for transmitting telemetry data.
+Other formats can be **Zipkin** or **Jaeger**.
+
 
 ### Collector
 Similar to the Agent, the Collector is able to receive spans and place them in an internal queue for processing.
@@ -249,14 +260,21 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 > A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. 
 [source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md)
 
-
 [List of supported receivers](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver)
 
-
-
 #### Processors
+> Processors are run on data between being received and being exported. Processors are optional though [some are recommended](https://github.com/open-telemetry/opentelemetry-collector/tree/main/processor#recommended-processors).
+[source](https://opentelemetry.io/docs/collector/configuration/#processors)
+
+[List of supported processors](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor)
+
 
 #### Exporters
+> An exporter is how you send data to one or more backends/destinations. Exporters may support one or more data sources.
+
+[List of supported exporters](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter)
+
+---
 
 ### Storage
 The OpenTelemetry collectors require a persistent storage backend.
@@ -278,6 +296,14 @@ Visualizing the distributed tracing data.
 
 - [Jaeger](https://github.com/jaegertracing/jaeger-ui)
 - [Zipkin](https://zipkin.io)
+
+### OpenTelemetry-Architecture
+
+![OpenTelemetry Architecture](otel-data-arch.png)
+
+[source](https://www.avioconsulting.com/hs-fs/hubfs/OpenTelemetry%20-%20EDAN.png?width=1248&name=OpenTelemetry%20-%20EDAN.png)
+
+---
 
 ## Newsletters
 - [o11y news!](https://o11y.news) -  Newsletter about Observability
@@ -311,8 +337,11 @@ Visualizing the distributed tracing data.
 - [CNCF](https://www.cncf.io/case-studies/)
 
 ## Community
-- [OpenTelemetry](https://github.com/open-telemetry/community)
+- [Join the OpenTelemetry community](https://opentelemetry.io/community/)
+- [Mailing Lists](https://github.com/open-telemetry/community#mailing-lists)
+- [OpenTelemetry community content](https://github.com/open-telemetry/community)
 - [OpenTelemetry Public Calendar](https://calendar.google.com/calendar/embed?src=google.com_b79e3e90j7bbsa2n2p5an5lf60%40group.calendar.google.com)
-- [CNCF](https://cloud-native.slack.com)
+- [Chat with other project developers on Slack](https://cloud-native.slack.com/archives/CJFCJHG4Q)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/open-telemetry)
 - [OpenTelemetry at Reddit](https://www.reddit.com/r/OpenTelemetry/)
 
