@@ -233,7 +233,7 @@ Client libraries used to instrument applications for distributed tracing.
 ---
 
 ### OpenTelemetry Client Architecture
-![OpenTelemetry Client Architecture](otel-specification.png | width=100)
+![OpenTelemetry Client Architecture](otel-specification.png)
 
 Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md)
 
