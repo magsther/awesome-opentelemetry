@@ -9,19 +9,6 @@ OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, ge
 
 ---
 
-**Reference Architecture**
-
-![Otel](otel-ref.png)
-
----
-
-**Otel Collector**
-
-![Otel](otel-collector.png)
-
-
----
-
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
@@ -220,6 +207,10 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 ## Components
 
+**Reference Architecture**
+
+![Otel](otel-ref.png)
+
 
 ### Client
 Client libraries used to instrument applications for distributed tracing.
@@ -252,6 +243,10 @@ Other formats can be **Zipkin** or **Jaeger**.
 Similar to the Agent, the Collector is able to receive spans and place them in an internal queue for processing.
 
 The OpenTelemetry [collector](https://opentelemetry.io/docs/collector/) is a **vendor-agnostic** way to receive, process and export telemetry data.
+
+**Otel Collector**
+
+![Otel](otel-collector.png)
  
 The Collector consists of three components that access telemetry data:
  - [Receivers](https://opentelemetry.io/docs/collector/configuration/#receivers) - How data gets into the Collector
