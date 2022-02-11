@@ -84,6 +84,12 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed Tracing Made Easy with .NET Core and OpenTelemetry](https://www.youtube.com/watch?v=s9UNr1oEMl4)
 - [Getting Started with OpenTelemetry in Python](https://www.youtube.com/watch?v=WS-iDN2BOMs)
 - [Standardising APM with OpenTelemetry and Elastic Observability](https://www.youtube.com/watch?v=Y6kQEhCvThU)
+- [The what and why of distributed tracing](https://www.cncf.io/online-programs/the-whats-and-whys-of-distributed-tracing/)
+- [Introduction to Tracing](https://www.youtube.com/watch?v=idDu_jXqf4E)
+- [Understanding Microservices with Distributed Tracing](https://www.youtube.com/watch?v=URCLeycMrhU)
+- [Why You Should Use Distributed Tracing Tools](https://www.youtube.com/watch?v=-NgcStx_w7A)
+- [Getting Started with Jaeger - Joe Elliott, Grafana Labs](https://www.youtube.com/watch?v=aMZoUIG-mgY)
+- [Distributed Tracing Made Easy with .NET Core and OpenTelemetry](https://www.youtube.com/watch?v=s9UNr1oEMl4)
 
 ## Distributed Tracing Solutions
 
@@ -131,6 +137,11 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [An Introduction to Distributed Tracing](https://www.honeycomb.io/blog/an-introduction-to-distributed-tracing/)
 - [What is Distributed Tracing?](https://www.splunk.com/en_us/data-insider/what-is-distributed-tracing.html)
 - [OpenTelemetry: beyond getting started](https://medium.com/opentelemetry/opentelemetry-beyond-getting-started-5ac43cd0fe26)
+- [Deploying Jaeger on Kubernetes](https://medium.com/jaegertracing/a-guide-to-deploying-jaeger-on-kubernetes-in-production-69afb9a7c8e5) - A Guide to Deploying Jaeger on Kubernetes in Production
+- [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da)
+- [Take Jaeger for a HotROD ride](https://medium.com/jaegertracing/take-jaeger-for-a-hotrod-ride-233cf43e46c2)
+- [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/)
+- [What is Distributed Tracing?](https://www.splunk.com/en_us/data-insider/what-is-distributed-tracing.html)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -195,6 +206,9 @@ Client libraries used to instrument applications for distributed tracing.
 
 - [OpenTelemetry](https://opentelemetry.io/docs/concepts/instrumenting-library/)
 
+**Other Libraries**
+- [Jaeger](https://www.jaegertracing.io/docs/1.31/client-libraries/)
+- [Zipkin](https://zipkin.io/pages/tracers_instrumentation) 
 
 ### Agent
 An agent listens for spans, which it batches and sends to the Collector. The agent is meant to be placed on the same host as the instrumented application. This is typically accomplished by having a sidecar in container environments such as Kubernetes or running it as a DaemonSet (on each node).
