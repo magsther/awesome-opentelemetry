@@ -244,8 +244,6 @@ Similar to the Agent, the Collector is able to receive spans and place them in a
 
 The OpenTelemetry [collector](https://opentelemetry.io/docs/collector/) is a **vendor-agnostic** way to receive, process and export telemetry data.
 
-**Otel Collector**
-
 ![Otel](otel-collector.png)
  
 The Collector consists of three components that access telemetry data:
