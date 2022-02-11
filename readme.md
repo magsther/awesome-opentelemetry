@@ -30,10 +30,10 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Books](#books)
 - [Videos](#videos)
+- [Blogs](#blogs)
 - [Distributed Tracing Solutions](#distributed-tracing-solutions)
   * [Open Source](#open-source)
   * [Vendors](#vendors)
-- [Blogs](#blogs)
 - [Terminology](#terminology)
 - [Quickstart](#quickstart)
 - [OpenTelemetry Instrumentation](#opentelemetry-instrumentation)
@@ -42,7 +42,11 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Components](#components)
   * [Client](#client)
   * [Agent](#agent)
+  * [OTLP](#otlp)
   * [Collector](#collector)
+    + [Receivers](#receivers)
+    + [Processors](#processors)
+    + [Exporters](#exporters)
   * [Storage](#storage)
   * [Ingester](#ingester)
   * [UI](#ui)
@@ -55,6 +59,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ## Books
 
+> Books about OpenTelemetry and Distributed Tracing
+
 - [The Future of Observability with OpenTelemetry](https://www.oreilly.com/library/view/the-future-of/9781098118433/)
 - [Distributed Tracing in Practice](https://www.oreilly.com/library/view/distributed-tracing-in/9781492056621/)
 - [Mastering Distributed Tracing](https://www.oreilly.com/library/view/mastering-distributed-tracing/9781788628464/)
@@ -62,6 +68,9 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed Tracing with Jaeger, Kubernetes, and Istio](https://www.manning.com/liveprojectseries/distributed-tracing-ser)
 
 ## Videos
+
+> Videos about OpenTelemetry and Distributed Tracing
+
 - [OpenTelemetry Twitch](https://www.twitch.tv/opentelemetry)
 - [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/)
 - [Honeycomb & OpenTelemetry: Instrumentation Should Be Boring](https://www.youtube.com/watch?v=bsVyry8U47Q)
@@ -91,32 +100,10 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Getting Started with Jaeger - Joe Elliott, Grafana Labs](https://www.youtube.com/watch?v=aMZoUIG-mgY)
 - [Distributed Tracing Made Easy with .NET Core and OpenTelemetry](https://www.youtube.com/watch?v=s9UNr1oEMl4)
 
-## Distributed Tracing Solutions
-
-### Open Source
-
-- [Jaeger](https://www.jaegertracing.io)
-- [OpenTelemetry](https://opentelemetry.io)
-- [Zipkin](https://zipkin.io)
-- [OpenTracing](https://opentracing.io) - **Deprecated**
-- [OpenCensus](https://opencensus.io) - **Deprecated**
-
-### Vendors
-
-- [Aspecto](https://www.aspecto.io)
-- [AWS X-Ray](https://aws.amazon.com/xray/)
-- [Honeycomb](https://www.honeycomb.io)
-- [Datadog](https://docs.datadoghq.com/getting_started/tracing/)
-- [Dynatrace](https://www.dynatrace.com)
-- [Instana](https://www.instana.com)
-- [Lightstep](https://lightstep.com)
-- [Logz.io](https://logz.io)
-- [New Relic](https://newrelic.com)
-- [SigNoz](https://signoz.io/)
-- [Splunk](https://www.splunk.com)
-
-
 ## Blogs
+
+> Blogs about OpenTelemetry and Distributed Tracing
+
 - [Honeycomb](https://www.honeycomb.io/blog/) - Blog posts about observability, monitoring, OpenTelemetry, and more.
 - [Aspecto](https://www.aspecto.io/blog/) - Blog posts About All the Observability Trends
 - [Jaeger](https://medium.com/jaegertracing/latest) - Blog posts from Jaeger
@@ -144,6 +131,30 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Take Jaeger for a HotROD ride](https://medium.com/jaegertracing/take-jaeger-for-a-hotrod-ride-233cf43e46c2)
 - [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/)
 - [What is Distributed Tracing?](https://www.splunk.com/en_us/data-insider/what-is-distributed-tracing.html)
+
+## Distributed Tracing Solutions
+
+### Open Source
+
+- [Jaeger](https://www.jaegertracing.io)
+- [OpenTelemetry](https://opentelemetry.io)
+- [Zipkin](https://zipkin.io)
+- [OpenTracing](https://opentracing.io) - **Deprecated**
+- [OpenCensus](https://opencensus.io) - **Deprecated**
+
+### Vendors
+
+- [Aspecto](https://www.aspecto.io)
+- [AWS X-Ray](https://aws.amazon.com/xray/)
+- [Honeycomb](https://www.honeycomb.io)
+- [Datadog](https://docs.datadoghq.com/getting_started/tracing/)
+- [Dynatrace](https://www.dynatrace.com)
+- [Instana](https://www.instana.com)
+- [Lightstep](https://lightstep.com)
+- [Logz.io](https://logz.io)
+- [New Relic](https://newrelic.com)
+- [SigNoz](https://signoz.io/)
+- [Splunk](https://www.splunk.com)
 
 
 ## Terminology
