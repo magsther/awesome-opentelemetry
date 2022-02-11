@@ -112,6 +112,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Lightstep](https://lightstep.com)
 - [Logz.io](https://logz.io)
 - [New Relic](https://newrelic.com)
+- [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
 
 
@@ -122,6 +123,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Medium](https://medium.com/opentelemetry) - Medium posts about OpenTelemetry
 - [Dev.to](https://dev.to/search?q=OpenTelemetry) - Dev.to posts about OpenTelemetry
 - [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates OpenTelemetry
+- [SigNoz](https://signoz.io/docs/instrumentation/overview/) - Blog posts about observability and application monitoring.
 - [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da)
 - [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/)
 - [What is OpenTelemetry?](https://codeboten.medium.com/what-is-opentelemetry-6a7e5c6901c5)
@@ -143,6 +145,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/)
 - [What is Distributed Tracing?](https://www.splunk.com/en_us/data-insider/what-is-distributed-tracing.html)
 
+
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
 - [Glossary](https://opentelemetry.io/docs/concepts/glossary/)
@@ -159,6 +162,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 - [Logz.io](https://docs.logz.io/shipping/tracing-sources/opentelemetry.html) **Vendor**
 - [New Relic](https://docs.newrelic.com/docs/distributed-tracing/concepts/quick-start/) **Vendor**
+- [SigNoz](https://signoz.io/docs/instrumentation/overview/)
 - [Splunk](https://www.splunk.com/en_us/blog/devops/getting-started-with-the-splunk-distribution-of-opentelemetry-python.html) **Vendor**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 
@@ -231,7 +235,8 @@ The Collector consists of three components that access telemetry data:
 For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
 #### Receivers
-> A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. [source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md)
+> A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. 
+[source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md)
 
 
 [List of supported receivers](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver)
@@ -296,4 +301,7 @@ Visualizing the distributed tracing data.
 
 ## Community
 - [OpenTelemetry](https://github.com/open-telemetry/community)
+- [OpenTelemetry Public Calendar](https://calendar.google.com/calendar/embed?src=google.com_b79e3e90j7bbsa2n2p5an5lf60%40group.calendar.google.com)
 - [CNCF](https://cloud-native.slack.com)
+- [OpenTelemetry at Reddit](https://www.reddit.com/r/OpenTelemetry/)
+
