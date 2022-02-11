@@ -174,7 +174,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 - [Logz.io](https://docs.logz.io/shipping/tracing-sources/opentelemetry.html) **Vendor**
 - [New Relic](https://docs.newrelic.com/docs/distributed-tracing/concepts/quick-start/) **Vendor**
-- [SigNoz](https://signoz.io/docs/instrumentation/overview/)
+- [SigNoz](https://signoz.io/docs/instrumentation/overview/) **Vendor**
 - [Splunk](https://www.splunk.com/en_us/blog/devops/getting-started-with-the-splunk-distribution-of-opentelemetry-python.html) **Vendor**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 
