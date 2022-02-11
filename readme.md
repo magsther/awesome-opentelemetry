@@ -199,7 +199,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing)
 - [Uptrace](https://uptrace.dev/)
 
-[Vendors Supporting OpenTelemetry](https://opentelemetry.io/vendors/)
+[Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
 
 ## OpenTelemetry Registry
 > The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to search for instrumentation libraries, tracer implementations, utilities, and other useful projects in the OpenTelemetry ecosystem.
