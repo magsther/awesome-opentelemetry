@@ -230,9 +230,6 @@ Client libraries used to instrument applications for distributed tracing.
 - [Jaeger](https://www.jaegertracing.io/docs/1.31/client-libraries/)
 - [Zipkin](https://zipkin.io/pages/tracers_instrumentation) 
 
----
-
-### OpenTelemetry Client Architecture
 ![OpenTelemetry Client Architecture](otel-specification.png)
 
 Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md)
