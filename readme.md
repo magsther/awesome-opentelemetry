@@ -280,6 +280,12 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 
 ---
 
+![OpenTelemetry Architecture](otel-data-arch.png)
+
+[source](https://www.avioconsulting.com/hs-fs/hubfs/OpenTelemetry%20-%20EDAN.png?width=1248&name=OpenTelemetry%20-%20EDAN.png)
+
+---
+
 ### Storage
 The OpenTelemetry collectors require a persistent storage backend.
 
@@ -300,12 +306,6 @@ Visualizing the distributed tracing data.
 
 - [Jaeger](https://github.com/jaegertracing/jaeger-ui)
 - [Zipkin](https://zipkin.io)
-
-### OpenTelemetry-Architecture
-
-![OpenTelemetry Architecture](otel-data-arch.png)
-
-[source](https://www.avioconsulting.com/hs-fs/hubfs/OpenTelemetry%20-%20EDAN.png?width=1248&name=OpenTelemetry%20-%20EDAN.png)
 
 ---
 
