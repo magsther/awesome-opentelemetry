@@ -58,6 +58,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 > Videos about OpenTelemetry and Distributed Tracing
 
+- [SREcon21 - Take Me Down to the Paradise City Where the Metric Is Green and Traces Are Pretty](https://www.youtube.com/watch?v=AKys5tuTvV0)
 - [OpenTelemetry Twitch](https://www.twitch.tv/opentelemetry)
 - [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/)
 - [Honeycomb & OpenTelemetry: Instrumentation Should Be Boring](https://www.youtube.com/watch?v=bsVyry8U47Q)
