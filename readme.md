@@ -95,30 +95,29 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Honeycomb](https://www.honeycomb.io/blog/) - Blog posts about observability, monitoring, OpenTelemetry, and more.
 - [Aspecto](https://www.aspecto.io/blog/) - Blog posts About All the Observability Trends
 - [Jaeger](https://medium.com/jaegertracing/latest) - Blog posts from Jaeger
+- [Beginner’s Guide to OpenTelemetry](https://logz.io/learn/opentelemetry-guide/) - Guide to OpenTelemetry
 - [Medium](https://medium.com/opentelemetry) - Medium posts about OpenTelemetry
 - [Dev.to](https://dev.to/search?q=OpenTelemetry) - Dev.to posts about OpenTelemetry
 - [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates OpenTelemetry
 - [SigNoz](https://signoz.io/docs/instrumentation/overview/) - Blog posts about observability and application monitoring.
 - [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da) - Taking OpenTelemetry and Jaeger Up a Level
-- [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/)
+- [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/) - A Distributed Tracing story at Uber
 - [What is OpenTelemetry?](https://codeboten.medium.com/what-is-opentelemetry-6a7e5c6901c5) - Blog post about OpenTelemetry and Observability
 - [Signoz](https://signoz.io/blog/) - News & updates on observability and application monitoring.
-- [Taking Distributed Tracing Beyond Monitoring](https://logz.io/blog/finops-distributed-tracing/)
-- [Beginner’s Guide to OpenTelemetry](https://logz.io/learn/opentelemetry-guide/)
-- [Authenticate your OpenTelemetry Collector using Azure ADAL](https://medium.com/@wtcampos/authenticate-your-opentelemetry-collector-using-azure-45e9419d06e9)
-- [Deep Dive into Open Telemetry for .NET](https://rehansaeed.com/deep-dive-into-open-telemetry-for-net/)
-- [What is OpenTelemetry and why is it the future of instrumentation?](https://www.cncf.io/blog/2021/08/06/what-is-opentelemetry-and-why-is-it-the-future-of-instrumentation/)
-- [Distributed Tracing with OpenTelemetry and Jaeger](https://iqfarhad.medium.com/distributed-tracing-with-opentelemetry-and-jaeger-e21e53b5c24e)
-- [Understanding OpenTelemetry and distributed tracing](https://medium.com/swlh/distributed-tracing-with-opentelemetry-part-1-6719df95a364)
-- [Distributed tracing and observability](https://www.dynatrace.com/news/blog/open-observability-part-1-distributed-tracing-and-observability/)
-- [An Introduction to Distributed Tracing](https://www.honeycomb.io/blog/an-introduction-to-distributed-tracing/)
-- [What is Distributed Tracing?](https://www.splunk.com/en_us/data-insider/what-is-distributed-tracing.html)
-- [OpenTelemetry: beyond getting started](https://medium.com/opentelemetry/opentelemetry-beyond-getting-started-5ac43cd0fe26)
+- [Taking Distributed Tracing Beyond Monitoring](https://logz.io/blog/finops-distributed-tracing/) - Observability into Your FinOps
+- [Authenticate your OpenTelemetry Collector using Azure ADAL](https://medium.com/@wtcampos/authenticate-your-opentelemetry-collector-using-azure-45e9419d06e9) - Authentication using Azure Active Directory Authentication Library 
+- [Deep Dive into OpenTelemetry for .NET](https://rehansaeed.com/deep-dive-into-open-telemetry-for-net/) - A four part guide how to use how to use OpenTelemetry with .NET
+- [What is OpenTelemetry and why is it the future of instrumentation?](https://www.cncf.io/blog/2021/08/06/what-is-opentelemetry-and-why-is-it-the-future-of-instrumentation/) - A two part serie about Understanding OpenTelemetry. (part 1)
+- [OpenTelemetry Concepts](https://newrelic.com/blog/best-practices/opentelemetry-concepts) A two part serie about Understanding OpenTelemetry. (part 2)
+- [Distributed Tracing with OpenTelemetry and Jaeger](https://iqfarhad.medium.com/distributed-tracing-with-opentelemetry-and-jaeger-e21e53b5c24e) - A post about how to set up tracing by using OTEL agent and collector beside Jaeger.
+- [Understanding OpenTelemetry and distributed tracing](https://medium.com/swlh/distributed-tracing-with-opentelemetry-part-1-6719df95a364) - Understanding OpenTelemetry and distributed tracing
+- [Distributed tracing and observability](https://www.dynatrace.com/news/blog/open-observability-part-1-distributed-tracing-and-observability/) - Blog post from Dynatrace about Open Observability.
+- [An Introduction to Distributed Tracing](https://www.honeycomb.io/blog/an-introduction-to-distributed-tracing/) - Blog post that gives an introduction to Distributed Tracing and the benefits of it.
+- [What is Distributed Tracing?](https://www.splunk.com/en_us/data-insider/what-is-distributed-tracing.html) - Blog post from Spunk that explains what Distributed Tracing is.
+- [OpenTelemetry: beyond getting started](https://medium.com/opentelemetry/opentelemetry-beyond-getting-started-5ac43cd0fe26) Blog post that explores real world scenarios for telemetry collection and enrichment using OpenTelemetry.
 - [Deploying Jaeger on Kubernetes](https://medium.com/jaegertracing/a-guide-to-deploying-jaeger-on-kubernetes-in-production-69afb9a7c8e5) - A Guide to Deploying Jaeger on Kubernetes in Production
-- [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da)
-- [Take Jaeger for a HotROD ride](https://medium.com/jaegertracing/take-jaeger-for-a-hotrod-ride-233cf43e46c2)
-- [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/)
-- [What is Distributed Tracing?](https://www.splunk.com/en_us/data-insider/what-is-distributed-tracing.html)
+- [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da) - Taking OpenTelemetry and Jaeger Up a Level
+- [Take Jaeger for a HotROD ride](https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941) -  Blog post that explores the features and capabilities of OpenTracing using a demo application HotROD from Jaeger.
 
 ## Distributed Tracing Solutions
 
