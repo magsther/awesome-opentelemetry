@@ -59,8 +59,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 > Videos about OpenTelemetry and Distributed Tracing
 
 - [SREcon21 - Take Me Down to the Paradise City Where the Metric Is Green and Traces Are Pretty](https://www.youtube.com/watch?v=AKys5tuTvV0)
-- [OpenTelemetry Twitch](https://www.twitch.tv/opentelemetry)
 - [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/)
+- [OpenTelemetry Twitch](https://www.twitch.tv/opentelemetry)
 - [Honeycomb & OpenTelemetry: Instrumentation Should Be Boring](https://www.youtube.com/watch?v=bsVyry8U47Q)
 - [OpenTelemetry Course - Understand Software Performance](https://www.youtube.com/watch?v=r8UvWSX3KA8&t=2969s)
 - [How OpenTelemetry is Eating the World](https://www.youtube.com/watch?v=DbaO0Xxv34c)
@@ -82,6 +82,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed Tracing Made Easy with .NET Core and OpenTelemetry](https://www.youtube.com/watch?v=s9UNr1oEMl4)
 - [Getting Started with OpenTelemetry in Python](https://www.youtube.com/watch?v=WS-iDN2BOMs)
 - [Standardising APM with OpenTelemetry and Elastic Observability](https://www.youtube.com/watch?v=Y6kQEhCvThU)
+- [Distributed tracing with OpenTelemetry and Cloud Trace](https://www.youtube.com/watch?v=NQeK8Kbu6UM)
 - [The what and why of distributed tracing](https://www.cncf.io/online-programs/the-whats-and-whys-of-distributed-tracing/)
 - [Introduction to Tracing](https://www.youtube.com/watch?v=idDu_jXqf4E)
 - [Understanding Microservices with Distributed Tracing](https://www.youtube.com/watch?v=URCLeycMrhU)
@@ -93,10 +94,11 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 > Blogs about OpenTelemetry and Distributed Tracing
 
+- [Unpacking Observability: The Path to OpenTelemetry](https://storiesfromtheherd.com/unpacking-observability-the-path-to-opentelemetry-399f40fd8c4)
+- [Beginner’s Guide to OpenTelemetry](https://logz.io/learn/opentelemetry-guide/) - Guide to OpenTelemetry
 - [Honeycomb](https://www.honeycomb.io/blog/) - Blog posts about observability, monitoring, OpenTelemetry, and more.
 - [Aspecto](https://www.aspecto.io/blog/) - Blog posts About All the Observability Trends
 - [Jaeger](https://medium.com/jaegertracing/latest) - Blog posts from Jaeger
-- [Beginner’s Guide to OpenTelemetry](https://logz.io/learn/opentelemetry-guide/) - Guide to OpenTelemetry
 - [Medium](https://medium.com/opentelemetry) - Medium posts about OpenTelemetry
 - [Dev.to](https://dev.to/search?q=OpenTelemetry) - Dev.to posts about OpenTelemetry
 - [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates OpenTelemetry
