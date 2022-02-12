@@ -109,12 +109,12 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Deep Dive into OpenTelemetry for .NET](https://rehansaeed.com/deep-dive-into-open-telemetry-for-net/) - A four part guide how to use how to use OpenTelemetry with .NET
 - [Why is OpenTelemetry the future of instrumentation?](https://www.cncf.io/blog/2021/08/06/what-is-opentelemetry-and-why-is-it-the-future-of-instrumentation/) - A two part serie about Understanding OpenTelemetry.
 - [OpenTelemetry Concepts](https://newrelic.com/blog/best-practices/opentelemetry-concepts) A two part serie about Understanding OpenTelemetry. (part 2)
-- [Distributed Tracing with OpenTelemetry and Jaeger](https://iqfarhad.medium.com/distributed-tracing-with-opentelemetry-and-jaeger-e21e53b5c24e) - Setup tracing by using OTEL agent and collector beside Jaeger.
+- [Distributed Tracing with OpenTelemetry and Jaeger](https://iqfarhad.medium.com/distributed-tracing-with-opentelemetry-and-jaeger-e21e53b5c24e) - Tracing using OTEL agent and collector beside Jaeger.
 - [Understanding OpenTelemetry and distributed tracing](https://medium.com/swlh/distributed-tracing-with-opentelemetry-part-1-6719df95a364) - Understanding OpenTelemetry and distributed tracing
 - [Distributed tracing and observability](https://www.dynatrace.com/news/blog/open-observability-part-1-distributed-tracing-and-observability/) - Blog post from Dynatrace about Open Observability.
 - [An Introduction to Distributed Tracing](https://www.honeycomb.io/blog/an-introduction-to-distributed-tracing/) - Introduction to Distributed Tracing and the benefits of it.
 - [What is Distributed Tracing?](https://www.splunk.com/en_us/data-insider/what-is-distributed-tracing.html) - Blog post from Spunk that explains what Distributed Tracing is.
-- [OpenTelemetry: beyond getting started](https://medium.com/opentelemetry/opentelemetry-beyond-getting-started-5ac43cd0fe26) Blog post that explores scenarios for telemetry collection using OpenTelemetry.
+- [OpenTelemetry: beyond getting started](https://medium.com/opentelemetry/opentelemetry-beyond-getting-started-5ac43cd0fe26) Explores scenarios for telemetry collection using OpenTelemetry.
 - [Deploying Jaeger on Kubernetes](https://medium.com/jaegertracing/a-guide-to-deploying-jaeger-on-kubernetes-in-production-69afb9a7c8e5) - A Guide to Deploying Jaeger on Kubernetes in Production
 - [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da) - Taking OpenTelemetry and Jaeger Up a Level
 - [Take Jaeger for a HotROD ride](https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941) -  Blog post of OpenTracing using a demo application HotROD from Jaeger.
