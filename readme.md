@@ -210,7 +210,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 **Reference Architecture**
 
-![Otel](otel-ref.png)
+![Otel](./docs.images/otel-ref.png)
 
 
 ### Client
@@ -224,7 +224,7 @@ Client libraries used to instrument applications for distributed tracing.
 
 ---
 
-![OpenTelemetry Client Architecture](otel-specification.png)
+![OpenTelemetry Client Architecture](./docs.images/otel-specification.png)
 
 Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md)
 
@@ -245,7 +245,7 @@ Similar to the Agent, the Collector is able to receive spans and place them in a
 
 The OpenTelemetry [collector](https://opentelemetry.io/docs/collector/) is a **vendor-agnostic** way to receive, process and export telemetry data.
 
-![Otel](otel-collector.png)
+![Otel](./docs.images/otel-collector.png)
  
 The Collector consists of three components that access telemetry data:
  - [Receivers](https://opentelemetry.io/docs/collector/configuration/#receivers) - How data gets into the Collector
@@ -274,7 +274,7 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 
 ---
 
-![OpenTelemetry Architecture](otel-data-arch.png)
+![OpenTelemetry Architecture](./docs.images/otel-data-arch.png)
 
 [source](https://www.avioconsulting.com/hs-fs/hubfs/OpenTelemetry%20-%20EDAN.png?width=1248&name=OpenTelemetry%20-%20EDAN.png)
 
