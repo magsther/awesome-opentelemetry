@@ -329,6 +329,8 @@ Visualizing the distributed tracing data.
 - [Liz Fong-Jones](https://twitter.com/lizthegrey) - Advocate at Honeycomb.io
 - [Ben Sigelman](https://twitter.com/el_bhs) - Co-created OpenTelemetry & OpenTracing
 - [Juraci Paixão Kröhling](https://twitter.com/jpkrohling) -  Opentelemetry maintainer.
+- [Charity Majors](https://twitter.com/mipsytipsy) - cofounder/CTO Honeycomb.io
+- [Awesome Opentelemetry](https://github.com/magsther/awesome-opentelemetry) - A curated list of OpenTelemetry resources.
 
 
 ## Case Studies
