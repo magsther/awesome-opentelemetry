@@ -97,6 +97,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Beginner’s Guide to OpenTelemetry](https://logz.io/learn/opentelemetry-guide/) - Guide to OpenTelemetry.
 - [Unpacking Observability: The Path to OpenTelemetry](https://storiesfromtheherd.com/unpacking-observability-the-path-to-opentelemetry-399f40fd8c4) - Blog post how to roll out OpenTelemetry to your organization. 
+- [Sampling and rate-limiting](https://opentelemetry.uptrace.dev/guide/sampling.html) - Good write up about Sampling from Uptrace.
 - [OpenTelemetry and Python](https://www.timescale.com/blog/opentelemetry-and-python-a-complete-instrumentation-guide/) - A Complete Instrumentation Guide from Timescale
 - [OpenTelemetry Masterclass](https://developer.newrelic.com/opentelemetry-masterclass/) - OpenTelemetry Masterclass from New Relic
 - [Honeycomb](https://www.honeycomb.io/blog/) - Blog posts about observability, monitoring, OpenTelemetry, and more.
