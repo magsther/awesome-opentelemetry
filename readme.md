@@ -91,6 +91,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Getting Started with Jaeger - Joe Elliott, Grafana Labs](https://www.youtube.com/watch?v=aMZoUIG-mgY)
 - [Distributed Tracing Made Easy with .NET Core and OpenTelemetry](https://www.youtube.com/watch?v=s9UNr1oEMl4)
 - [Adding OpenTelemetry to Production Apps](https://www.youtube.com/watch?v=ODQPERg82yQ)
+- [Otel Instrumentation with SigNoz](https://www.youtube.com/playlist?list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP)
 
 ## Blogs
 
