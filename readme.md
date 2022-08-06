@@ -200,6 +200,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Grafana Labs](https://grafana.com/oss/opentelemetry/)
 - [Honeycomb](https://docs.honeycomb.io/getting-data-in/)
 - [Lightstep](https://github.com/lightstep?q=launcher)
+- [Logz.io](https://logz.io/)
 - [New Relic](https://newrelic.com/solutions/opentelemetry)
 - [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html)
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
@@ -290,9 +291,10 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 The OpenTelemetry collectors require a persistent storage backend.
 
 - [Cassandra](https://cassandra.apache.org/_/index.html) - open source NoSQL distributed database 
-- [Elasticsearch](https://www.elastic.co) - open search and analytics solution
+- [Elastic](https://www.elastic.co) - open search and analytics solution
 - [Jaeger](https://github.com/jaegertracing/jaeger) - distributed tracing platform created by Uber Technologies
 - [SkyWalking](https://github.com/apache/skywalking) - open source APM system
+- [Splunk](https://www.splunk.com/)
 - [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend. 
 
 
