@@ -146,6 +146,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Dynatrace](https://www.dynatrace.com)
 - [Instana](https://www.instana.com)
 - [Lightstep](https://lightstep.com)
+- [LogicMonitor](https://www.logicmonitor.com)
 - [Logz.io](https://logz.io)
 - [New Relic](https://newrelic.com)
 - [SigNoz](https://signoz.io/)
@@ -166,6 +167,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Elastic](https://www.elastic.co/guide/en/apm/get-started/current/distributed-tracing.html) **Vendor**
 - [Honeycomb](https://docs.honeycomb.io/getting-started/quickstart/) **Vendor**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
+- [LogicMonitor](https://www.logicmonitor.com/support/tracing/getting-started-with-tracing) **Vendor**
 - [Logz.io](https://docs.logz.io/shipping/tracing-sources/opentelemetry.html) **Vendor**
 - [New Relic](https://docs.newrelic.com/docs/distributed-tracing/concepts/quick-start/) **Vendor**
 - [SigNoz](https://signoz.io/docs/instrumentation/overview/) **Vendor**
