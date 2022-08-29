@@ -127,6 +127,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Deploying Jaeger on Kubernetes](https://medium.com/jaegertracing/a-guide-to-deploying-jaeger-on-kubernetes-in-production-69afb9a7c8e5) - A Guide to Deploying Jaeger on Kubernetes in Production.
 - [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da) - Taking OpenTelemetry and Jaeger Up a Level
 - [Take Jaeger for a HotROD ride](https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941) -  Blog post of OpenTracing using a demo application HotROD from Jaeger.
+- [A beginner’s guide to OpenTelemetry](https://medium.com/@magstherdev/opentelemetry-d71d369c83d7)
 
 ## Distributed Tracing Solutions
 
