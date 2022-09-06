@@ -128,6 +128,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da) - Taking OpenTelemetry and Jaeger Up a Level
 - [Take Jaeger for a HotROD ride](https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941) -  Blog post of OpenTracing using a demo application HotROD from Jaeger.
 - [A beginner’s guide to OpenTelemetry](https://medium.com/@magstherdev/opentelemetry-d71d369c83d7)
+- [Trace-Based Testing: The Next Step in Observability](https://thenewstack.io/trace-based-testing-the-next-step-in-observability/)
 
 ## Distributed Tracing Solutions
 
@@ -136,6 +137,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Jaeger](https://www.jaegertracing.io)
 - [OpenTelemetry](https://opentelemetry.io)
 - [Zipkin](https://zipkin.io)
+- [Tracetest](https://github.com/kubeshop/tracetest)
 - [OpenTracing](https://opentracing.io) - **Deprecated**
 - [OpenCensus](https://opencensus.io) - **Deprecated**
 
