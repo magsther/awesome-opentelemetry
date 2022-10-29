@@ -129,6 +129,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Take Jaeger for a HotROD ride](https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941) -  Blog post of OpenTracing using a demo application HotROD from Jaeger.
 - [A beginner’s guide to OpenTelemetry](https://medium.com/@magstherdev/opentelemetry-d71d369c83d7)
 - [Trace-Based Testing: The Next Step in Observability](https://thenewstack.io/trace-based-testing-the-next-step-in-observability/)
+- [A Guide to OpenTelemetry](https://www.apmdigest.com/opentelemetry-1)
 
 ## Distributed Tracing Solutions
 
