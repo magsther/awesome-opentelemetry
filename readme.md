@@ -300,6 +300,8 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [Cassandra](https://cassandra.apache.org/_/index.html) - open source NoSQL distributed database 
 - [Elastic](https://www.elastic.co) - open search and analytics solution
 - [Jaeger](https://github.com/jaegertracing/jaeger) - distributed tracing platform created by Uber Technologies
+- [Promscale](https://www.timescale.com/promscale) - an open source observability backend for traces and metrics
+- [SigNoz](https://signoz.io/) - open source APM based on OpenTelemetry
 - [SkyWalking](https://github.com/apache/skywalking) - open source APM system
 - [Splunk](https://www.splunk.com/)
 - [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend. 
