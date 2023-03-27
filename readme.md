@@ -54,6 +54,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed Systems Observability](https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/)
 - [Distributed Tracing with Jaeger, Kubernetes, and Istio](https://www.manning.com/liveprojectseries/distributed-tracing-ser)
 - [Cloud-Native Observability with OpenTelemetry](https://www.oreilly.com/library/view/cloud-native-observability-with/9781801077705/)
+- [Practical OpenTelemetry](https://www.oreilly.com/library/view/practical-opentelemetry-adopting/9781484290750/)
 
 ## Videos
 
