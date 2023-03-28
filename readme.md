@@ -139,6 +139,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [OpenTelemetry](https://opentelemetry.io)
 - [Zipkin](https://zipkin.io)
 - [Tracetest](https://github.com/kubeshop/tracetest)
+- [SigNoz](https://signoz.io/)
 - [OpenTracing](https://opentracing.io) - **Deprecated**
 - [OpenCensus](https://opencensus.io) - **Deprecated**
 
@@ -211,6 +212,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [New Relic](https://newrelic.com/solutions/opentelemetry)
 - [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html)
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
+- [SigNoz](https://signoz.io/)
 - [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing)
 - [Uptrace](https://uptrace.dev/)
 
@@ -301,7 +303,7 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [Elastic](https://www.elastic.co) - open search and analytics solution
 - [Jaeger](https://github.com/jaegertracing/jaeger) - distributed tracing platform created by Uber Technologies
 - [Promscale](https://www.timescale.com/promscale) - an open source observability backend for traces and metrics
-- [SigNoz](https://signoz.io/) - open source APM based on OpenTelemetry
+- [SigNoz](https://signoz.io/) - Open Source Metrics, Traces and Logs in a single pane
 - [SkyWalking](https://github.com/apache/skywalking) - open source APM system
 - [Splunk](https://www.splunk.com/)
 - [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend. 
