@@ -329,7 +329,9 @@ Visualizing the distributed tracing data.
 - [The new stack](https://thenewstack.io/category/monitoring/) - A newsletter digest of the week’s most important stories & analyses.
 
 ## Podcasts
-- [Changelog]( https://changelog.com/topic/observability)
+- [Changelog](https://changelog.com/topic/observability)
+- [OpenTelemetry in use](https://inuse.o11y.engineering/episodes)
+- [SE Radio 556: Alex Boten on Open Telemetry](https://www.se-radio.net/2023/03/se-radio-556-alex-boten-on-open-telemetry/)
 
 ## Events
 - [CNCF](https://www.cncf.io/events/) - CNCF Events
