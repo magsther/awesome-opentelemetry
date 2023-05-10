@@ -146,6 +146,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [OpenTelemetry vs. OpenMetrics for Observability](https://telemetryhub.com/opentelemetry-vs-openmetrics-for-observability/)
 - [Pros and Cons of Installing the OpenTelemetry Collector](https://telemetryhub.com/installing-the-opentelemetry-collector/)
 - [The Ultimate OpenTelemetry Guide for Developers](https://telemetryhub.com/the-ultimate-opentelemetry-guide-for-developers/)
+- [Distributed System Debugging with OpenTelemetry and Teletrace](https://medium.com/gitconnected/distributed-system-debugging-with-opentelemetry-and-teletrace-real-world-examples-15e6e0a9c49b)
 
 ## Distributed Tracing Solutions
 
@@ -154,6 +155,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Jaeger](https://www.jaegertracing.io)
 - [OpenTelemetry](https://opentelemetry.io)
 - [Zipkin](https://zipkin.io)
+- [Teletrace](https://github.com/teletrace/teletrace)
 - [Tracetest](https://github.com/kubeshop/tracetest)
 - [SigNoz](https://signoz.io/)
 - [OpenTracing](https://opentracing.io) - **Deprecated**
@@ -194,6 +196,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [New Relic](https://docs.newrelic.com/docs/distributed-tracing/concepts/quick-start/) **Vendor**
 - [SigNoz](https://signoz.io/docs/instrumentation/overview/) **Vendor**
 - [Splunk](https://www.splunk.com/en_us/blog/devops/getting-started-with-the-splunk-distribution-of-opentelemetry-python.html) **Vendor**
+- [Teletrace](https://docs.teletrace.io/user-guide/quick_start/) **OpenSource**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 - [TelemetryHub](https://app.telemetryhub.com/docs#quickStart) **Vendor**
 
@@ -325,6 +328,7 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [SigNoz](https://signoz.io/) - Open Source Metrics, Traces and Logs in a single pane
 - [SkyWalking](https://github.com/apache/skywalking) - open source APM system
 - [Splunk](https://www.splunk.com/)
+- [Teletrace](https://github.com/teletrace/teletrace) - Open source distributed tracing tool.
 - [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend. 
 
 
@@ -339,6 +343,7 @@ Visualizing the distributed tracing data.
 - [Jaeger](https://github.com/jaegertracing/jaeger-ui)
 - [TelemetryHub](https://telemetryhub.com/)
 - [Zipkin](https://zipkin.io)
+- [Teletrace](https://github.com/teletrace/teletrace)
 
 ---
 
@@ -386,4 +391,5 @@ Visualizing the distributed tracing data.
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/open-telemetry)
 - [OpenTelemetry at Reddit](https://www.reddit.com/r/OpenTelemetry/)
 - [OpenTelemetry - Current Status](https://opentelemetry.io/status/)
+- [Teletrace](https://join.slack.com/t/teletrace/shared_invite/zt-1qv0kogcn-KlbBB2yS~gUCGszZoSpJfQ)
 
