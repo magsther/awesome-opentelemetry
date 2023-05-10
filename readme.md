@@ -94,6 +94,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed Tracing Made Easy with .NET Core and OpenTelemetry](https://www.youtube.com/watch?v=s9UNr1oEMl4)
 - [Adding OpenTelemetry to Production Apps](https://www.youtube.com/watch?v=ODQPERg82yQ)
 - [Otel Instrumentation with SigNoz](https://www.youtube.com/playlist?list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP)
+- [Effortlessly Monitor Your Node.JS App with OpenTelemetry: A Quick Tutorial](https://www.youtube.com/watch?v=Q03R_9_xAlA)
 
 ## Blogs
 
@@ -131,6 +132,20 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [A beginner’s guide to OpenTelemetry](https://medium.com/@magstherdev/opentelemetry-d71d369c83d7)
 - [Trace-Based Testing: The Next Step in Observability](https://thenewstack.io/trace-based-testing-the-next-step-in-observability/)
 - [A Guide to OpenTelemetry](https://www.apmdigest.com/opentelemetry-1)
+- [A Look at eBay’s Implementation of OpenTelemetry](https://telemetryhub.com/a-look-at-ebays-implementation-of-opentelemetry/) - Looking into one of the largest sites in the world and how they use OpenTelemetry.
+- [APM vs. Application Performance Observability: What’s the Difference?](https://telemetryhub.com/apm-vs-apo-whats-the-difference/) - Understanding the difference between Observability/Opentelemetry and Application Performance Monitoring.
+- [APM, Observability, or Both?](https://telemetryhub.com/apm-observability-or-both/)
+- [Node.JS – Observability Tools: A Comprehensive Guide](https://telemetryhub.com/node-js-observability-tools/)
+- [Running the OpenTelemetry Demo](https://telemetryhub.com/running-the-opentelemetry-demo/) - How to run the opentelemetry-demo project and why you should do it.
+- [OpenTelemetry Visualizations](https://telemetryhub.com/opentelemetry-visualizations/) - How to use OTEL visualization data.
+- [OpenTelemetry: An Open Source Community Driven Project](https://telemetryhub.com/opentelemetry-open-source-project/)
+- [The Future of Observability](https://telemetryhub.com/observability-and-opentelemetry/)
+- [What are OpenTelemetry Components?](https://telemetryhub.com/opentelemetry-components/)
+- [How to Analyze OpenTelemetry Data: A Guide for Businesses](https://telemetryhub.com/solid-software-principles/)
+- [OpenTelemetry vs OpenTracing and OpenCensus](https://telemetryhub.com/opentelemetry-vs-opentracing-and-opencensus/)
+- [OpenTelemetry vs. OpenMetrics for Observability](https://telemetryhub.com/opentelemetry-vs-openmetrics-for-observability/)
+- [Pros and Cons of Installing the OpenTelemetry Collector](https://telemetryhub.com/installing-the-opentelemetry-collector/)
+- [The Ultimate OpenTelemetry Guide for Developers](https://telemetryhub.com/the-ultimate-opentelemetry-guide-for-developers/)
 - [Distributed System Debugging with OpenTelemetry and Teletrace](https://medium.com/gitconnected/distributed-system-debugging-with-opentelemetry-and-teletrace-real-world-examples-15e6e0a9c49b)
 
 ## Distributed Tracing Solutions
@@ -160,7 +175,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [New Relic](https://newrelic.com)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
-
+- [TelemetryHub](https://telemetryhub.com/)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -183,6 +198,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Splunk](https://www.splunk.com/en_us/blog/devops/getting-started-with-the-splunk-distribution-of-opentelemetry-python.html) **Vendor**
 - [Teletrace](https://docs.teletrace.io/user-guide/quick_start/) **OpenSource**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
+- [TelemetryHub](https://app.telemetryhub.com/docs#quickStart) **Vendor**
+
 
 ## OpenTelemetry Instrumentation
 
@@ -218,6 +235,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
 - [SigNoz](https://signoz.io/)
 - [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing)
+- [TelemetryHub](https://telemetryhub.com/)
 - [Uptrace](https://uptrace.dev/)
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
@@ -323,6 +341,7 @@ You can optional use an **Ingester**, which is a service that reads data from Ka
 Visualizing the distributed tracing data.
 
 - [Jaeger](https://github.com/jaegertracing/jaeger-ui)
+- [TelemetryHub](https://telemetryhub.com/)
 - [Zipkin](https://zipkin.io)
 - [Teletrace](https://github.com/teletrace/teletrace)
 
