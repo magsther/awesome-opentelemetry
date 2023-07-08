@@ -60,6 +60,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 > Videos about OpenTelemetry and Distributed Tracing
 
+- [KubeConEU-2023 Ingesting 6.5 Tb of Telemetry Data Daily Through Open Telemetry Protocol and Collectors](https://www.youtube.com/watch?v=aDysORX1zIs)
 - [OpenTelemetry meetup with Yuri Shkuro on Distributed Tracing, Jaeger and OpenTelemetry](https://www.youtube.com/watch?v=OebhomcdJ4g)
 - [SREcon21 - Take Me Down to the Paradise City Where the Metric Is Green and Traces Are Pretty](https://www.youtube.com/watch?v=AKys5tuTvV0)
 - [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/)
