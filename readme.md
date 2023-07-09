@@ -147,6 +147,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Pros and Cons of Installing the OpenTelemetry Collector](https://telemetryhub.com/installing-the-opentelemetry-collector/)
 - [The Ultimate OpenTelemetry Guide for Developers](https://telemetryhub.com/the-ultimate-opentelemetry-guide-for-developers/)
 - [Distributed System Debugging with OpenTelemetry and Teletrace](https://medium.com/gitconnected/distributed-system-debugging-with-opentelemetry-and-teletrace-real-world-examples-15e6e0a9c49b)
+- [Observability strategies to not overload engineering teams — OpenTelemetry Strategy](https://itnext.io/observability-strategies-to-not-overload-engineering-teams-opentelemetry-strategy-d064b806435c)
 
 ## Distributed Tracing Solutions
 
@@ -176,6 +177,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
 - [TelemetryHub](https://telemetryhub.com/)
+- [Coralogix](https://coralogix.com/)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -199,7 +201,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Teletrace](https://docs.teletrace.io/user-guide/quick_start/) **OpenSource**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 - [TelemetryHub](https://app.telemetryhub.com/docs#quickStart) **Vendor**
-
+- [Coralogix](https://coralogix.com/docs/opentelemetry/) **Vendor**
 
 ## OpenTelemetry Instrumentation
 
@@ -324,12 +326,13 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [Cassandra](https://cassandra.apache.org/_/index.html) - open source NoSQL distributed database 
 - [Elastic](https://www.elastic.co) - open search and analytics solution
 - [Jaeger](https://github.com/jaegertracing/jaeger) - distributed tracing platform created by Uber Technologies
-- [Promscale](https://www.timescale.com/promscale) - an open source observability backend for traces and metrics
+- [Promscale](https://www.timescale.com/promscale) - an open source observability backend for traces and metrics ** deprecated **
 - [SigNoz](https://signoz.io/) - Open Source Metrics, Traces and Logs in a single pane
 - [SkyWalking](https://github.com/apache/skywalking) - open source APM system
 - [Splunk](https://www.splunk.com/)
 - [Teletrace](https://github.com/teletrace/teletrace) - Open source distributed tracing tool.
-- [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend. 
+- [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend.
+- [Thanos](https://thanos.io/)
 
 
 ### Ingester
