@@ -149,7 +149,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [The Ultimate OpenTelemetry Guide for Developers](https://telemetryhub.com/the-ultimate-opentelemetry-guide-for-developers/)
 - [Distributed System Debugging with OpenTelemetry and Teletrace](https://medium.com/gitconnected/distributed-system-debugging-with-opentelemetry-and-teletrace-real-world-examples-15e6e0a9c49b)
 - [Observability strategies to not overload engineering teams — OpenTelemetry Strategy](https://itnext.io/observability-strategies-to-not-overload-engineering-teams-opentelemetry-strategy-d064b806435c)
-
+- [OpenTelemetry in Action](https://medium.com/@magstherdev/opentelemetry-in-action-fc61263c852) - Hands-On guide to get started with OpenTelemetry using the OpenTelemetry demo application.
+  
 ## Distributed Tracing Solutions
 
 ### Open Source
