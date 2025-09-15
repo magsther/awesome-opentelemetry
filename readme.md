@@ -175,6 +175,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Lightstep](https://lightstep.com)
 - [LogicMonitor](https://www.logicmonitor.com)
 - [Logz.io](https://logz.io)
+- [Lumigo](https://lumigo.io)
 - [New Relic](https://newrelic.com)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
