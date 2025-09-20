@@ -158,7 +158,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Jaeger](https://www.jaegertracing.io)
 - [OpenTelemetry](https://opentelemetry.io)
 - [Zipkin](https://zipkin.io)
-- [Teletrace](https://github.com/teletrace/teletrace)
+- [Teletrace](https://github.com/teletrace/teletrace) - **Deprecated**
 - [Tracetest](https://github.com/kubeshop/tracetest)
 - [SigNoz](https://signoz.io/)
 - [OpenTracing](https://opentracing.io) - **Deprecated**
