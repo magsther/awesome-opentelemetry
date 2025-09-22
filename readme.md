@@ -115,6 +115,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [From Distributed Tracing to APM](https://horovits.medium.com/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level-12dfe85022da) - Taking OpenTelemetry and Jaeger Up a Level.
 - [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/) - A Distributed Tracing story at Uber.
 - [What is OpenTelemetry?](https://codeboten.medium.com/what-is-opentelemetry-6a7e5c6901c5) - Blog post about OpenTelemetry and Observability.
+- [Everything You Need to Get Started with OTel](https://last9.io/guides/opentelemetry/)
+- [Last9](https://last9.io/blog/) - Blogs on observability, monitoring, best practices, and OpenTelemetry.
 - [Signoz](https://signoz.io/blog/) - News & updates on observability and application monitoring.
 - [Taking Distributed Tracing Beyond Monitoring](https://logz.io/blog/finops-distributed-tracing/) - Observability into Your FinOps.
 - [Authenticate your OpenTelemetry Collector using Azure ADAL](https://medium.com/@wtcampos/authenticate-your-opentelemetry-collector-using-azure-45e9419d06e9) - Authentication using Azure ADAL.
@@ -150,6 +152,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed System Debugging with OpenTelemetry and Teletrace](https://medium.com/gitconnected/distributed-system-debugging-with-opentelemetry-and-teletrace-real-world-examples-15e6e0a9c49b)
 - [Observability strategies to not overload engineering teams — OpenTelemetry Strategy](https://itnext.io/observability-strategies-to-not-overload-engineering-teams-opentelemetry-strategy-d064b806435c)
 - [OpenTelemetry in Action](https://medium.com/@magstherdev/opentelemetry-in-action-fc61263c852) - Hands-On guide to get started with OpenTelemetry using the OpenTelemetry demo application.
+- [What is OpenTelemetry](https://www.dash0.com/faq/what-is-opentelemetry) - Introduction into the history of OpenTelemetry by Dash0
   
 ## Distributed Tracing Solutions
 
@@ -158,7 +161,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Jaeger](https://www.jaegertracing.io)
 - [OpenTelemetry](https://opentelemetry.io)
 - [Zipkin](https://zipkin.io)
-- [Teletrace](https://github.com/teletrace/teletrace)
+- [Teletrace](https://github.com/teletrace/teletrace) - **Deprecated**
 - [Tracetest](https://github.com/kubeshop/tracetest)
 - [SigNoz](https://signoz.io/)
 - [OpenTracing](https://opentracing.io) - **Deprecated**
@@ -172,15 +175,18 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Honeycomb](https://www.honeycomb.io)
 - [Datadog](https://docs.datadoghq.com/getting_started/tracing/)
 - [Dynatrace](https://www.dynatrace.com)
+- [Embrace](https://www.embrace.io)
 - [Instana](https://www.instana.com)
 - [Lightstep](https://lightstep.com)
 - [LogicMonitor](https://www.logicmonitor.com)
 - [Logz.io](https://logz.io)
+- [Lumigo](https://lumigo.io)
 - [New Relic](https://newrelic.com)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
 - [TelemetryHub](https://telemetryhub.com/)
 - [Coralogix](https://coralogix.com/)
+- [Dash0](https://www.dash0.com)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -229,9 +235,11 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [AWS](https://aws-otel.github.io/)
 - [Azure](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
 - [Last9]([https://last9.io/](https://last9.io/docs/integrations-opentelemetry/)) 
+- [Dash0](https://www.dash0.com)
 - [Datadog](https://docs.datadoghq.com/tracing/setup_overview/open_standards)
 - [Dynatrace](https://www.dynatrace.com/support/help/how-to-use-dynatrace/transactions-and-services/service-monitoring-settings/opentelemetry/)
 - [Elastic](https://www.elastic.co/guide/en/apm/get-started/current/open-telemetry-elastic.html)
+- Embrace ([Android](https://github.com/embrace-io/embrace-android-sdk) | [iOS](https://github.com/embrace-io/embrace-apple-sdk))
 - [F5](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/f5cloudexporter)
 - [Grafana Labs](https://grafana.com/oss/opentelemetry/)
 - [Honeycomb](https://docs.honeycomb.io/getting-data-in/)
@@ -299,6 +307,8 @@ The Collector consists of three components that access telemetry data:
  
 For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
+[OTelBin - Online Collector Configuration Tool](https://www.otelbin.io) - OTelBin is a visual editor for the collector configuration.
+
 #### Receivers
 > A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. 
 [source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md)
@@ -352,6 +362,7 @@ Visualizing the distributed tracing data.
 - [TelemetryHub](https://telemetryhub.com/)
 - [Zipkin](https://zipkin.io)
 - [Teletrace](https://github.com/teletrace/teletrace)
+- [AspireDashboard](https://aspiredashboard.com/)
 
 ---
 
