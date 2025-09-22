@@ -168,6 +168,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Aspecto](https://www.aspecto.io)
 - [AWS X-Ray](https://aws.amazon.com/xray/)
+- [Last9](https://last9.io/)
 - [Honeycomb](https://www.honeycomb.io)
 - [Datadog](https://docs.datadoghq.com/getting_started/tracing/)
 - [Dynatrace](https://www.dynatrace.com)
@@ -190,6 +191,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [OpenTelemetry](https://opentelemetry.io/docs/concepts/)
 - [Aspecto](https://docs.aspecto.io/v1/getting-started/quick-start) **Vendor**
 - [AWS X-Ray](https://aws.amazon.com/xray/getting-started/) **Vendor**
+- [Last9](https://last9.io/) **Vendor**
 - [Datadog](https://docs.datadoghq.com/getting_started/tracing/) **Vendor**
 - [Dynatrace](https://www.dynatrace.com/support/help/extend-dynatrace/opentelemetry/opentelemetry-ingest) **Vendor**
 - [Elastic](https://www.elastic.co/guide/en/apm/get-started/current/distributed-tracing.html) **Vendor**
@@ -226,6 +228,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Aspecto](https://www.aspecto.io/)
 - [AWS](https://aws-otel.github.io/)
 - [Azure](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
+- [Last9]([https://last9.io/](https://last9.io/docs/integrations-opentelemetry/)) 
 - [Datadog](https://docs.datadoghq.com/tracing/setup_overview/open_standards)
 - [Dynatrace](https://www.dynatrace.com/support/help/how-to-use-dynatrace/transactions-and-services/service-monitoring-settings/opentelemetry/)
 - [Elastic](https://www.elastic.co/guide/en/apm/get-started/current/open-telemetry-elastic.html)
