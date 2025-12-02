@@ -96,6 +96,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Adding OpenTelemetry to Production Apps](https://www.youtube.com/watch?v=ODQPERg82yQ)
 - [Otel Instrumentation with SigNoz](https://www.youtube.com/playlist?list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP)
 - [Effortlessly Monitor Your Node.JS App with OpenTelemetry: A Quick Tutorial](https://www.youtube.com/watch?v=Q03R_9_xAlA)
+- [The OpenTelemetry Collector Explained: A Practical Guide](https://www.youtube.com/watch?v=KFesgjzK3gk)
 
 ## Blogs
 
@@ -117,7 +118,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [What is OpenTelemetry?](https://codeboten.medium.com/what-is-opentelemetry-6a7e5c6901c5) - Blog post about OpenTelemetry and Observability.
 - [Everything You Need to Get Started with OTel](https://last9.io/guides/opentelemetry/)
 - [Last9](https://last9.io/blog/) - Blogs on observability, monitoring, best practices, and OpenTelemetry.
-- [Signoz](https://signoz.io/blog/) - News & updates on observability and application monitoring.
+- [SigNoz](https://signoz.io/opentelemetry/) - Blogs and guides to learn all things opentelemetry in one place.
 - [Taking Distributed Tracing Beyond Monitoring](https://logz.io/blog/finops-distributed-tracing/) - Observability into Your FinOps.
 - [Authenticate your OpenTelemetry Collector using Azure ADAL](https://medium.com/@wtcampos/authenticate-your-opentelemetry-collector-using-azure-45e9419d06e9) - Authentication using Azure ADAL.
 - [Deep Dive into OpenTelemetry for .NET](https://rehansaeed.com/deep-dive-into-open-telemetry-for-net/) - A four part guide how to use how to use OpenTelemetry with .NET.
@@ -204,7 +205,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [LogicMonitor](https://www.logicmonitor.com/support/tracing/getting-started-with-tracing) **Vendor**
 - [Logz.io](https://docs.logz.io/shipping/tracing-sources/opentelemetry.html) **Vendor**
 - [New Relic](https://docs.newrelic.com/docs/distributed-tracing/concepts/quick-start/) **Vendor**
-- [SigNoz](https://signoz.io/docs/instrumentation/overview/) **Vendor**
+- [SigNoz](https://signoz.io/docs/introduction/) **Vendor**
 - [Splunk](https://www.splunk.com/en_us/blog/devops/getting-started-with-the-splunk-distribution-of-opentelemetry-python.html) **Vendor**
 - [Teletrace](https://docs.teletrace.io/user-guide/quick_start/) **OpenSource**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
