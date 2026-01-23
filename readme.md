@@ -175,6 +175,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Datadog](https://docs.datadoghq.com/getting_started/tracing/)
 - [Dynatrace](https://www.dynatrace.com)
 - [Embrace](https://www.embrace.io)
+- [Grafana Labs](https://grafana.com/)
 - [Instana](https://www.instana.com)
 - [Lightstep](https://lightstep.com)
 - [LogicMonitor](https://www.logicmonitor.com)
@@ -199,6 +200,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Datadog](https://docs.datadoghq.com/getting_started/tracing/) **Vendor**
 - [Dynatrace](https://www.dynatrace.com/support/help/extend-dynatrace/opentelemetry/opentelemetry-ingest) **Vendor**
 - [Elastic](https://www.elastic.co/guide/en/apm/get-started/current/distributed-tracing.html) **Vendor**
+- [Grafana Cloud](https://grafana.com/docs/opentelemetry/grafana-cloud/) **Vendor**
 - [Honeycomb](https://docs.honeycomb.io/getting-started/quickstart/) **Vendor**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 - [LogicMonitor](https://www.logicmonitor.com/support/tracing/getting-started-with-tracing) **Vendor**
