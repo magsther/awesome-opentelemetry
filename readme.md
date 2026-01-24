@@ -371,11 +371,13 @@ Visualizing the distributed tracing data.
 - [o11y news!](https://o11y.news) -  Newsletter about Observability
 - [Observability news](https://buttondown.email/o11y.news) - Updates around observability (o11y) with a special focus on open source
 - [The new stack](https://thenewstack.io/category/monitoring/) - A newsletter digest of the week’s most important stories & analyses.
+- [Code RED Newsletter](https://www.dash0.com/newsletter) - The Code RED Newsletter brings you adoption stories, deep technical explorations, hands-on tips, and community highlights.
 
 ## Podcasts
 - [Changelog](https://changelog.com/topic/observability)
 - [OpenTelemetry in use](https://inuse.o11y.engineering/episodes)
 - [SE Radio 556: Alex Boten on Open Telemetry](https://www.se-radio.net/2023/03/se-radio-556-alex-boten-on-open-telemetry/)
+- [Code RED Podcast](https://www.dash0.com/podcast) - Stay updated with expert discussions, trends, and innovations in tech.
 
 ## Events
 - [CNCF](https://www.cncf.io/events/) - CNCF Events
