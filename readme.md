@@ -182,6 +182,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [LogicMonitor](https://www.logicmonitor.com)
 - [Logz.io](https://logz.io)
 - [Lumigo](https://lumigo.io)
+- [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
@@ -206,6 +207,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 - [LogicMonitor](https://www.logicmonitor.com/support/tracing/getting-started-with-tracing) **Vendor**
 - [Logz.io](https://docs.logz.io/shipping/tracing-sources/opentelemetry.html) **Vendor**
+- [Metoro](https://metoro.io/docs/getting-started/introduction) **Vendor**
 - [New Relic](https://docs.newrelic.com/docs/distributed-tracing/concepts/quick-start/) **Vendor**
 - [SigNoz](https://signoz.io/docs/introduction/) **Vendor**
 - [Splunk](https://www.splunk.com/en_us/blog/devops/getting-started-with-the-splunk-distribution-of-opentelemetry-python.html) **Vendor**
@@ -246,6 +248,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Honeycomb](https://docs.honeycomb.io/getting-data-in/)
 - [Lightstep](https://github.com/lightstep?q=launcher)
 - [Logz.io](https://logz.io/)
+- [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com/solutions/opentelemetry)
 - [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html)
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
