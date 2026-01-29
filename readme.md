@@ -165,6 +165,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Teletrace](https://github.com/teletrace/teletrace) - **Deprecated**
 - [Tracetest](https://github.com/kubeshop/tracetest)
 - [SigNoz](https://signoz.io/)
+- [Sematext](https://sematext.com/)
 - [OpenTracing](https://opentracing.io) - **Deprecated**
 - [OpenCensus](https://opencensus.io) - **Deprecated**
 
@@ -190,6 +191,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [TelemetryHub](https://telemetryhub.com/)
 - [Coralogix](https://coralogix.com/)
 - [Dash0](https://www.dash0.com)
+- [Sematext](https://sematext.com/)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -217,6 +219,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 - [TelemetryHub](https://app.telemetryhub.com/docs#quickStart) **Vendor**
 - [Coralogix](https://coralogix.com/docs/opentelemetry/) **Vendor**
+- [Sematext](https://sematext.com/docs/tracing/) **Vendor**
 
 ## OpenTelemetry Instrumentation
 
@@ -252,12 +255,14 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Logz.io](https://logz.io/)
 - [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com/solutions/opentelemetry)
+- [Sematext](https://sematext.com/)
 - [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html)
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
 - [SigNoz](https://signoz.io/)
 - [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing)
 - [TelemetryHub](https://telemetryhub.com/)
 - [Uptrace](https://uptrace.dev/)
+
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
 
