@@ -15,7 +15,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ## Contents
 
-- [Education & Training](#education-training)
+- [Education & Training](#education--training)
 - [Books](#books)
 - [Videos](#videos)
 - [Blogs](#blogs)
