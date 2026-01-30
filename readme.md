@@ -15,6 +15,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ## Contents
 
+- [Education & Training](#education-training)
 - [Books](#books)
 - [Videos](#videos)
 - [Blogs](#blogs)
@@ -44,6 +45,13 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Case Studies](#case-studies)
 - [Community](#community)
 
+## Education & Training
+
+> Educational resources for learning OpenTelemetry.
+
+- [30 Days of OpenTelemetry](https://github.com/juliafmorgado/30DaysOtel/tree/main)
+
+  
 ## Books
 
 > Books about OpenTelemetry and Distributed Tracing
