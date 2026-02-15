@@ -194,6 +194,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Lumigo](https://lumigo.io)
 - [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com)
+- [Opik](https://www.comet.com/site/products/opik/)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
 - [TelemetryHub](https://telemetryhub.com/)
