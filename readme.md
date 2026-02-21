@@ -176,6 +176,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Sematext](https://sematext.com/)
 - [OpenTracing](https://opentracing.io) - **Deprecated**
 - [OpenCensus](https://opencensus.io) - **Deprecated**
+- [Agent-SRE](https://github.com/imran-siddique/agent-sre) - AI-native SRE framework with OTel-compatible SLI/SLO metrics, chaos test spans, and canary deployment traces for AI agent observability
+- [Agent-Hypervisor](https://github.com/imran-siddique/agent-hypervisor) - Runtime supervisor for multi-agent systems with a structured event bus (40+ event types) that exports ring transitions, saga steps, and liability events as distributed traces
 
 ### Vendors
 
