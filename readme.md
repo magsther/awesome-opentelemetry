@@ -63,6 +63,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed Tracing with Jaeger, Kubernetes, and Istio](https://www.manning.com/liveprojectseries/distributed-tracing-ser)
 - [Cloud-Native Observability with OpenTelemetry](https://www.packtpub.com/product/cloud-native-observability-with-opentelemetry/9781801077705)
 - [Practical OpenTelemetry](https://link.springer.com/book/10.1007/978-1-4842-9075-0)
+- [OpenTelemetry for Dummies: Dash0 Special Edition (Free)](https://www.dash0.com/lp/opentelemetry-for-dummies)
 
 ## Videos
 
@@ -161,8 +162,9 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed System Debugging with OpenTelemetry and Teletrace](https://medium.com/gitconnected/distributed-system-debugging-with-opentelemetry-and-teletrace-real-world-examples-15e6e0a9c49b)
 - [Observability strategies to not overload engineering teams — OpenTelemetry Strategy](https://itnext.io/observability-strategies-to-not-overload-engineering-teams-opentelemetry-strategy-d064b806435c)
 - [OpenTelemetry in Action](https://medium.com/@magstherdev/opentelemetry-in-action-fc61263c852) - Hands-On guide to get started with OpenTelemetry using the OpenTelemetry demo application.
-- [What is OpenTelemetry](https://www.dash0.com/faq/what-is-opentelemetry) - Introduction into the history of OpenTelemetry by Dash0
-  
+- [What is OpenTelemetry](https://www.dash0.com/knowledge/what-is-opentelemetry) - Introduction into the history of OpenTelemetry by Dash0
+- [OpenTelemetry Collector: Beginner's Guide to Telemetry Pipelines](https://www.dash0.com/guides/opentelemetry-collector)
+- [Distributed Tracing in Microservices: How It Actually Works](https://www.dash0.com/knowledge/what-is-distributed-tracing)
 ## Distributed Tracing Solutions
 
 ### Open Source
@@ -232,6 +234,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [TelemetryHub](https://app.telemetryhub.com/docs#quickStart) **Vendor**
 - [Coralogix](https://coralogix.com/docs/opentelemetry/) **Vendor**
 - [Sematext](https://sematext.com/docs/tracing/) **Vendor**
+- [Dash0](https://www.dash0.com/docs/dash0/telemetry/tracing) **Vendor**
 
 ## OpenTelemetry Instrumentation
 
@@ -315,6 +318,7 @@ An agent listens for spans, which it batches and sends to the Collector. The age
 OTLP is the default OpenTelemetry protocol for transmitting telemetry data.
 Other formats can be **Zipkin** or **Jaeger**.
 
+- [What Is OTLP and Why It's the Future of Observability](https://www.dash0.com/knowledge/opentelemetry-protocol-otlp)
 
 ### Collector
 Similar to the Agent, the Collector is able to receive spans and place them in an internal queue for processing.
@@ -394,6 +398,7 @@ Visualizing the distributed tracing data.
 - [Observability news](https://buttondown.email/o11y.news) - Updates around observability (o11y) with a special focus on open source
 - [The new stack](https://thenewstack.io/category/monitoring/) - A newsletter digest of the week’s most important stories & analyses.
 - [Code RED Newsletter](https://www.dash0.com/newsletter) - The Code RED Newsletter brings you adoption stories, deep technical explorations, hands-on tips, and community highlights.
+- [Observability 360](https://observability-360.com/) - A fortnightly briefing read by professionals at the world's best observability companies. News, products, how-to's and more
 
 ## Podcasts
 - [Changelog](https://changelog.com/topic/observability)
