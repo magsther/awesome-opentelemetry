@@ -312,6 +312,7 @@ Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/o
 ### Agent
 An agent listens for spans, which it batches and sends to the Collector. The agent is meant to be placed on the same host as the instrumented application. This is typically accomplished by having a sidecar in container environments such as Kubernetes or running it as a DaemonSet (on each node).
 
+- [Ingero](https://github.com/ingero-io/ingero) - eBPF-based GPU causal observability agent with OTLP export. Traces CUDA APIs and host kernel events via uprobes, exports to any OpenTelemetry-compatible backend.
 - [OpenTelemetry](https://opentelemetry.io/docs/collector/getting-started/)
 
 ### OTLP
