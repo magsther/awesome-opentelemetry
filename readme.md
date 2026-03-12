@@ -165,6 +165,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [What is OpenTelemetry](https://www.dash0.com/knowledge/what-is-opentelemetry) - Introduction into the history of OpenTelemetry by Dash0
 - [OpenTelemetry Collector: Beginner's Guide to Telemetry Pipelines](https://www.dash0.com/guides/opentelemetry-collector)
 - [Distributed Tracing in Microservices: How It Actually Works](https://www.dash0.com/knowledge/what-is-distributed-tracing)
+- [OpenTelemetry 101: Complete Guide](https://tracekit.dev/opentelemetry-101-complete-guide-for-2025/) - Comprehensive introduction to OpenTelemetry concepts, architecture, and getting started.
+- [Distributed Tracing for Root Cause Analysis](https://tracekit.dev/distributed-tracing-root-cause-analysis/) - How distributed tracing speeds up root cause analysis in production systems.
 ## Distributed Tracing Solutions
 
 ### Open Source
@@ -206,6 +208,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Coralogix](https://coralogix.com/)
 - [Dash0](https://www.dash0.com)
 - [Sematext](https://sematext.com/)
+- [TraceKit](https://tracekit.dev) 
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -235,6 +238,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Coralogix](https://coralogix.com/docs/opentelemetry/) **Vendor**
 - [Sematext](https://sematext.com/docs/tracing/) **Vendor**
 - [Dash0](https://www.dash0.com/docs/dash0/telemetry/tracing) **Vendor**
+- [TraceKit](https://app.tracekit.dev/docs) **Vendor**
 
 ## OpenTelemetry Instrumentation
 
@@ -277,6 +281,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing)
 - [TelemetryHub](https://telemetryhub.com/)
 - [Uptrace](https://uptrace.dev/)
+- [TraceKit](https://tracekit.dev)
 
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
