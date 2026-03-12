@@ -238,6 +238,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Coralogix](https://coralogix.com/docs/opentelemetry/) **Vendor**
 - [Sematext](https://sematext.com/docs/tracing/) **Vendor**
 - [Dash0](https://www.dash0.com/docs/dash0/telemetry/tracing) **Vendor**
+- [TraceKit](https://app.tracekit.dev/docs) **Vendor**
 
 ## OpenTelemetry Instrumentation
 
@@ -280,6 +281,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing)
 - [TelemetryHub](https://telemetryhub.com/)
 - [Uptrace](https://uptrace.dev/)
+- [TraceKit](https://tracekit.dev)
 
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
