@@ -50,7 +50,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 > Educational resources for learning OpenTelemetry.
 
 - [30 Days of OpenTelemetry](https://github.com/juliafmorgado/30DaysOtel/tree/main)
-
+- [Getting Started with OpenTelemetry (LFS148)](https://training.linuxfoundation.org/training/getting-started-with-opentelemetry-lfs148/) - Official introductory course by The Linux Foundation. (Free).
   
 ## Books
 
