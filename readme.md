@@ -230,6 +230,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [SigNoz](https://signoz.io/docs/introduction/) **Vendor**
 - [Splunk](https://www.splunk.com/en_us/blog/devops/getting-started-with-the-splunk-distribution-of-opentelemetry-python.html) **Vendor**
 - [Teletrace](https://docs.teletrace.io/user-guide/quick_start/) **OpenSource**
+- [GreptimeDB](https://docs.greptime.com/user-guide/ingest-data/for-observability/opentelemetry/) **Vendor**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 - [TelemetryHub](https://app.telemetryhub.com/docs#quickStart) **Vendor**
 - [Coralogix](https://coralogix.com/docs/opentelemetry/) **Vendor**
@@ -373,6 +374,7 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [SkyWalking](https://github.com/apache/skywalking) - open source APM system
 - [Splunk](https://www.splunk.com/)
 - [Teletrace](https://github.com/teletrace/teletrace) - Open source distributed tracing tool.
+- [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) - open source unified observability database for metrics, logs, and traces
 - [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend.
 - [Thanos](https://thanos.io/)
 
