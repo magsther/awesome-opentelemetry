@@ -4,6 +4,7 @@ A curated list of OpenTelemetry resources.
 
 ---
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for OpenTelemetry observability workflow orchestration, automated distributed tracing management, and multi-agent coordination. MIT licensed.
 ## What is OpenTelemetry?
 OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) to help you analyze your software’s performance and behavior
 
