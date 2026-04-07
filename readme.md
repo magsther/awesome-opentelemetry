@@ -32,6 +32,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
   * [Agent](#agent)
   * [OTLP](#otlp)
   * [Collector](#collector)
+    + [Configuration Tools](#configuration-tools)
     + [Receivers](#receivers)
     + [Processors](#processors)
     + [Exporters](#exporters)
@@ -348,6 +349,11 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 
 [Telflo](https://telflo.com) - AI powered OTel Collector configuration manager with a visual drag and drop pipeline editor and OpAMP based remote management.
 [OTelBin - Online Collector Configuration Tool](https://www.otelbin.io) - OTelBin is a visual editor for the collector configuration.
+#### Configuration Tools
+> Tools to author, validate, and lint OpenTelemetry Collector configurations.
+
+- [OTelBin](https://www.otelbin.io) - Online visual editor for the OpenTelemetry Collector configuration.
+- [Augur](https://github.com/starkross/augur) - Fast, opinionated linter for OpenTelemetry Collector configurations. Uses Open Policy Agent (OPA) and Rego to catch misconfigurations, security issues (e.g. hardcoded credentials), and performance pitfalls (e.g. missing memory limiters, badly placed batch processors) before they reach production.
 
 #### Receivers
 > A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. 
