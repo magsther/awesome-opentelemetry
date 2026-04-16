@@ -127,6 +127,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [What is OpenTelemetry?](https://codeboten.medium.com/what-is-opentelemetry-6a7e5c6901c5) - Blog post about OpenTelemetry and Observability.
 - [Everything You Need to Get Started with OTel](https://last9.io/guides/opentelemetry/)
 - [Last9](https://last9.io/blog/) - Blogs on observability, monitoring, best practices, and OpenTelemetry.
+- [Middleware](https://middleware.io/blog/) - Blog posts on Observability, OpenTelemetry, Industry news and more. 
 - [SigNoz](https://signoz.io/opentelemetry/) - Blogs and guides to learn all things opentelemetry in one place.
 - [Taking Distributed Tracing Beyond Monitoring](https://logz.io/blog/finops-distributed-tracing/) - Observability into Your FinOps.
 - [Authenticate your OpenTelemetry Collector using Azure ADAL](https://medium.com/@wtcampos/authenticate-your-opentelemetry-collector-using-azure-45e9419d06e9) - Authentication using Azure ADAL.
@@ -206,6 +207,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Coralogix](https://coralogix.com/)
 - [Dash0](https://www.dash0.com)
 - [Sematext](https://sematext.com/)
+- [Middleware](https://middleware.io/)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -235,6 +237,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Coralogix](https://coralogix.com/docs/opentelemetry/) **Vendor**
 - [Sematext](https://sematext.com/docs/tracing/) **Vendor**
 - [Dash0](https://www.dash0.com/docs/dash0/telemetry/tracing) **Vendor**
+- [Middleware](https://docs.middleware.io/open-telemetry/otel-getting-started) **Vendor**
 
 ## OpenTelemetry Instrumentation
 
@@ -277,6 +280,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing)
 - [TelemetryHub](https://telemetryhub.com/)
 - [Uptrace](https://uptrace.dev/)
+- [Middleware](https://middleware.io/)
 
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
