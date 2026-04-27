@@ -256,6 +256,9 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Rust](https://opentelemetry.io/docs/instrumentation/rust/) - A language-specific implementation of OpenTelemetry in Rust.
 - [Swift](https://opentelemetry.io/docs/instrumentation/swift/) - A language-specific implementation of OpenTelemetry in Swift.
 
+### GenAI / LLM Instrumentation
+- [TraceVerde (genai-otel-instrument)](https://github.com/Mandark-droid/genai_otel_instrument) - Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.
+
 ### Vendors Distro
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
 
