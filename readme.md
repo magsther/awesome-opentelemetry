@@ -50,8 +50,9 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 > Educational resources for learning OpenTelemetry.
 
 - [30 Days of OpenTelemetry](https://github.com/juliafmorgado/30DaysOtel/tree/main)
+- [OpenTelemetry Koans](https://otel.mreider.com) - Interactive exercises that teach OpenTelemetry concepts through discovery.
 
-  
+
 ## Books
 
 > Books about OpenTelemetry and Distributed Tracing
