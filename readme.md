@@ -400,6 +400,7 @@ You can optional use an **Ingester**, which is a service that reads data from Ka
 Visualizing the distributed tracing data.
 
 - [Jaeger](https://github.com/jaegertracing/jaeger-ui)
+- [KubeStellar Console](https://github.com/kubestellar/console) - Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.
 - [TelemetryHub](https://telemetryhub.com/)
 - [Zipkin](https://zipkin.io)
 - [Teletrace](https://github.com/teletrace/teletrace)
