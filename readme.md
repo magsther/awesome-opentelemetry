@@ -32,6 +32,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
   * [Agent](#agent)
   * [OTLP](#otlp)
   * [Collector](#collector)
+    + [Configuration Tools](#configuration-tools)
     + [Receivers](#receivers)
     + [Processors](#processors)
     + [Exporters](#exporters)
@@ -50,8 +51,9 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 > Educational resources for learning OpenTelemetry.
 
 - [30 Days of OpenTelemetry](https://github.com/juliafmorgado/30DaysOtel/tree/main)
+- [OpenTelemetry Koans](https://otel.mreider.com) - Interactive exercises that teach OpenTelemetry concepts through discovery.
 
-  
+
 ## Books
 
 > Books about OpenTelemetry and Distributed Tracing
@@ -166,6 +168,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [What is OpenTelemetry](https://www.dash0.com/knowledge/what-is-opentelemetry) - Introduction into the history of OpenTelemetry by Dash0
 - [OpenTelemetry Collector: Beginner's Guide to Telemetry Pipelines](https://www.dash0.com/guides/opentelemetry-collector)
 - [Distributed Tracing in Microservices: How It Actually Works](https://www.dash0.com/knowledge/what-is-distributed-tracing)
+- [OpenTelemetry 101: Complete Guide](https://tracekit.dev/opentelemetry-101-complete-guide-for-2025/) - Comprehensive introduction to OpenTelemetry concepts, architecture, and getting started.
+- [Distributed Tracing for Root Cause Analysis](https://tracekit.dev/distributed-tracing-root-cause-analysis/) - How distributed tracing speeds up root cause analysis in production systems.
 ## Distributed Tracing Solutions
 
 ### Open Source
@@ -182,7 +186,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Agent-SRE](https://github.com/imran-siddique/agent-sre) - AI-native SRE framework with OTel-compatible SLI/SLO metrics, chaos test spans, and canary deployment traces for AI agent observability
 - [Agent-Hypervisor](https://github.com/imran-siddique/agent-hypervisor) - Runtime supervisor for multi-agent systems with a structured event bus (40+ event types) that exports ring transitions, saga steps, and liability events as distributed traces
 - [Manifest](https://manifest.build) ([GitHub](https://github.com/mnfst/manifest)) - Open-source real-time cost observability for AI agents. OTLP-native, accepts standard OpenTelemetry signals via HTTP (JSON and Protobuf). Tracks tokens, costs, messages, and model usage. Self-hostable and privacy-focused.
-
+- [traceAI](https://github.com/future-agi/traceAI) - Open-source OpenTelemetry-native instrumentation framework for AI applications that auto-instruments 20+ LLM providers and agent frameworks, capturing prompts, tokens, latency, and errors with zero code changes.
 ### Vendors
 
 - [Aspecto](https://www.aspecto.io)
@@ -208,6 +212,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Dash0](https://www.dash0.com)
 - [Sematext](https://sematext.com/)
 - [Middleware](https://middleware.io/)
+- [TraceKit](https://tracekit.dev) 
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -232,12 +237,14 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [SigNoz](https://signoz.io/docs/introduction/) **Vendor**
 - [Splunk](https://www.splunk.com/en_us/blog/devops/getting-started-with-the-splunk-distribution-of-opentelemetry-python.html) **Vendor**
 - [Teletrace](https://docs.teletrace.io/user-guide/quick_start/) **OpenSource**
+- [GreptimeDB](https://docs.greptime.com/user-guide/ingest-data/for-observability/opentelemetry/) **Vendor**
 - [Lightstep](https://opentelemetry.lightstep.com/) **Vendor**
 - [TelemetryHub](https://app.telemetryhub.com/docs#quickStart) **Vendor**
 - [Coralogix](https://coralogix.com/docs/opentelemetry/) **Vendor**
 - [Sematext](https://sematext.com/docs/tracing/) **Vendor**
 - [Dash0](https://www.dash0.com/docs/dash0/telemetry/tracing) **Vendor**
 - [Middleware](https://docs.middleware.io/open-telemetry/otel-getting-started) **Vendor**
+- [TraceKit](https://app.tracekit.dev/docs) **Vendor**
 
 ## OpenTelemetry Instrumentation
 
@@ -253,6 +260,9 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Ruby](https://opentelemetry.io/docs/instrumentation/ruby/automatic/) - **supports Automatic Instrumentation**
 - [Rust](https://opentelemetry.io/docs/instrumentation/rust/) - A language-specific implementation of OpenTelemetry in Rust.
 - [Swift](https://opentelemetry.io/docs/instrumentation/swift/) - A language-specific implementation of OpenTelemetry in Swift.
+
+### GenAI / LLM Instrumentation
+- [TraceVerde (genai-otel-instrument)](https://github.com/Mandark-droid/genai_otel_instrument) - Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.
 
 ### Vendors Distro
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
@@ -281,6 +291,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [TelemetryHub](https://telemetryhub.com/)
 - [Uptrace](https://uptrace.dev/)
 - [Middleware](https://middleware.io/)
+- [TraceKit](https://tracekit.dev)
 
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
@@ -316,6 +327,7 @@ Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/o
 ### Agent
 An agent listens for spans, which it batches and sends to the Collector. The agent is meant to be placed on the same host as the instrumented application. This is typically accomplished by having a sidecar in container environments such as Kubernetes or running it as a DaemonSet (on each node).
 
+- [Ingero](https://github.com/ingero-io/ingero) - eBPF-based GPU causal observability agent with OTLP export. Traces CUDA APIs and host kernel events via uprobes, exports to any OpenTelemetry-compatible backend.
 - [OpenTelemetry](https://opentelemetry.io/docs/collector/getting-started/)
 
 ### OTLP
@@ -338,7 +350,14 @@ The Collector consists of three components that access telemetry data:
  
 For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
+
+[Telflo](https://telflo.com) - AI powered OTel Collector configuration manager with a visual drag and drop pipeline editor and OpAMP based remote management.
 [OTelBin - Online Collector Configuration Tool](https://www.otelbin.io) - OTelBin is a visual editor for the collector configuration.
+#### Configuration Tools
+> Tools to author, validate, and lint OpenTelemetry Collector configurations.
+
+- [OTelBin](https://www.otelbin.io) - Online visual editor for the OpenTelemetry Collector configuration.
+- [Augur](https://github.com/starkross/augur) - Fast, opinionated linter for OpenTelemetry Collector configurations. Uses Open Policy Agent (OPA) and Rego to catch misconfigurations, security issues (e.g. hardcoded credentials), and performance pitfalls (e.g. missing memory limiters, badly placed batch processors) before they reach production.
 
 #### Receivers
 > A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. 
@@ -377,6 +396,7 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [SkyWalking](https://github.com/apache/skywalking) - open source APM system
 - [Splunk](https://www.splunk.com/)
 - [Teletrace](https://github.com/teletrace/teletrace) - Open source distributed tracing tool.
+- [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) - open source unified observability database for metrics, logs, and traces
 - [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend.
 - [Thanos](https://thanos.io/)
 
@@ -390,6 +410,7 @@ You can optional use an **Ingester**, which is a service that reads data from Ka
 Visualizing the distributed tracing data.
 
 - [Jaeger](https://github.com/jaegertracing/jaeger-ui)
+- [KubeStellar Console](https://github.com/kubestellar/console) - Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.
 - [TelemetryHub](https://telemetryhub.com/)
 - [Zipkin](https://zipkin.io)
 - [Teletrace](https://github.com/teletrace/teletrace)
