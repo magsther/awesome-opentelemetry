@@ -127,6 +127,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Evolving Distributed Tracing at Uber Engineering](https://eng.uber.com/distributed-tracing/) - A Distributed Tracing story at Uber.
 - [What is OpenTelemetry?](https://codeboten.medium.com/what-is-opentelemetry-6a7e5c6901c5) - Blog post about OpenTelemetry and Observability.
 - [Everything You Need to Get Started with OTel](https://last9.io/guides/opentelemetry/)
+- [Middleware](https://middleware.io/blog/) - Get the latest Observability, openTelemetry, monitoring insights
 - [Last9](https://last9.io/blog/) - Blogs on observability, monitoring, best practices, and OpenTelemetry.
 - [SigNoz](https://signoz.io/opentelemetry/) - Blogs and guides to learn all things opentelemetry in one place.
 - [Taking Distributed Tracing Beyond Monitoring](https://logz.io/blog/finops-distributed-tracing/) - Observability into Your FinOps.
