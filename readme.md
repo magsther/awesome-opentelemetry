@@ -32,7 +32,6 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
   * [Agent](#agent)
   * [OTLP](#otlp)
   * [Collector](#collector)
-    + [Configuration Tools](#configuration-tools)
     + [Receivers](#receivers)
     + [Processors](#processors)
     + [Exporters](#exporters)
@@ -261,6 +260,9 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 ### GenAI / LLM Instrumentation
 - [TraceVerde (genai-otel-instrument)](https://github.com/Mandark-droid/genai_otel_instrument) - Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.
 
+### ROS2 / Robotics
+- [ros-opentelemetry](https://github.com/szobov/ros-opentelemetry) - End‑to‑End Telemetry for Robotics ([ROS2](https://www.ros.org)) based on opentelemetry's Python and C++ client libraries.
+
 ### Vendors Distro
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
 
@@ -349,11 +351,6 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 
 [Telflo](https://telflo.com) - AI powered OTel Collector configuration manager with a visual drag and drop pipeline editor and OpAMP based remote management.
 [OTelBin - Online Collector Configuration Tool](https://www.otelbin.io) - OTelBin is a visual editor for the collector configuration.
-#### Configuration Tools
-> Tools to author, validate, and lint OpenTelemetry Collector configurations.
-
-- [OTelBin](https://www.otelbin.io) - Online visual editor for the OpenTelemetry Collector configuration.
-- [Augur](https://github.com/starkross/augur) - Fast, opinionated linter for OpenTelemetry Collector configurations. Uses Open Policy Agent (OPA) and Rego to catch misconfigurations, security issues (e.g. hardcoded credentials), and performance pitfalls (e.g. missing memory limiters, badly placed batch processors) before they reach production.
 
 #### Receivers
 > A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. 
