@@ -129,6 +129,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Everything You Need to Get Started with OTel](https://last9.io/guides/opentelemetry/)
 - [Middleware](https://middleware.io/blog/) - Get the latest Observability, openTelemetry, monitoring insights
 - [Last9](https://last9.io/blog/) - Blogs on observability, monitoring, best practices, and OpenTelemetry.
+- [Middleware](https://middleware.io/blog/) - Blog posts on Observability, OpenTelemetry, Industry news and more. 
 - [SigNoz](https://signoz.io/opentelemetry/) - Blogs and guides to learn all things opentelemetry in one place.
 - [Taking Distributed Tracing Beyond Monitoring](https://logz.io/blog/finops-distributed-tracing/) - Observability into Your FinOps.
 - [Authenticate your OpenTelemetry Collector using Azure ADAL](https://medium.com/@wtcampos/authenticate-your-opentelemetry-collector-using-azure-45e9419d06e9) - Authentication using Azure ADAL.
@@ -210,6 +211,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Coralogix](https://coralogix.com/)
 - [Dash0](https://www.dash0.com)
 - [Sematext](https://sematext.com/)
+- [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev) 
 
 ## Terminology
@@ -241,6 +243,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Coralogix](https://coralogix.com/docs/opentelemetry/) **Vendor**
 - [Sematext](https://sematext.com/docs/tracing/) **Vendor**
 - [Dash0](https://www.dash0.com/docs/dash0/telemetry/tracing) **Vendor**
+- [Middleware](https://docs.middleware.io/open-telemetry/otel-getting-started) **Vendor**
 - [TraceKit](https://app.tracekit.dev/docs) **Vendor**
 
 ## OpenTelemetry Instrumentation
@@ -290,6 +293,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing)
 - [TelemetryHub](https://telemetryhub.com/)
 - [Uptrace](https://uptrace.dev/)
+- [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev)
 
 
