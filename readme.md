@@ -170,6 +170,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed Tracing in Microservices: How It Actually Works](https://www.dash0.com/knowledge/what-is-distributed-tracing)
 - [OpenTelemetry 101: Complete Guide](https://tracekit.dev/opentelemetry-101-complete-guide-for-2025/) - Comprehensive introduction to OpenTelemetry concepts, architecture, and getting started.
 - [Distributed Tracing for Root Cause Analysis](https://tracekit.dev/distributed-tracing-root-cause-analysis/) - How distributed tracing speeds up root cause analysis in production systems.
+- [Understanding OpenTelemetry Metrics: Type, Models and Best Practices](https://middleware.io/blog/opentelemetry-metrics/)
+- [OpenTelemetry Logs: A Complete Guide](https://middleware.io/blog/opentelemetry-logs/)
 ## Distributed Tracing Solutions
 
 ### Open Source
