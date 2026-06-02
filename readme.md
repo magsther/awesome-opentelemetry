@@ -215,6 +215,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Sematext](https://sematext.com/)
 - [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev) 
+- [groundcover](https://www.groundcover.com/)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
