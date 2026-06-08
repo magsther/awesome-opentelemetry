@@ -265,6 +265,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Swift](https://opentelemetry.io/docs/instrumentation/swift/) - A language-specific implementation of OpenTelemetry in Swift.
 
 ### GenAI / LLM Instrumentation
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain trust scoring and behavioral tracing for AI agent wallets on Solana. MCP server (, ) — use in agentic OTel pipelines to enrich agent spans with on-chain identity and trust score attributes before x402 micropayment-gated resource access. [MCP](https://intel.twzrd.xyz/mcp)
 - [TraceVerde (genai-otel-instrument)](https://github.com/Mandark-droid/genai_otel_instrument) - Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.
 - [Future AGI](https://github.com/future-agi/future-agi) - Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.
 - [heimdall-mcp](https://github.com/enmanuelmag/heimdall-mcp) - Transparent proxy for any MCP server that intercepts JSON-RPC messages, measures latency, and exports OpenTelemetry-native spans to any OTLP-compatible backend (Jaeger, Tempo, Grafana) without modifying the original server.
