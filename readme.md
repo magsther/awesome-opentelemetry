@@ -216,6 +216,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev) 
 - [groundcover](https://www.groundcover.com/)
+- [Respan](https://www.respan.ai/ai-gateway)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -248,6 +249,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Dash0](https://www.dash0.com/docs/dash0/telemetry/tracing) **Vendor**
 - [Middleware](https://docs.middleware.io/open-telemetry/otel-getting-started) **Vendor**
 - [TraceKit](https://app.tracekit.dev/docs) **Vendor**
+- [Respan](https://www.respan.ai/docs/documentation/features/tracing/quickstart) **Vendor**
 
 ## OpenTelemetry Instrumentation
 
@@ -301,6 +303,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Uptrace](https://uptrace.dev/)
 - [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev)
+- [Respan](https://www.respan.ai/ai-gateway)
 
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
