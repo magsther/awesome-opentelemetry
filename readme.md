@@ -216,6 +216,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev) 
 - [groundcover](https://www.groundcover.com/)
+- [Yorker](https://yorkermonitoring.com)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
