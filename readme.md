@@ -217,6 +217,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [TraceKit](https://tracekit.dev) 
 - [groundcover](https://www.groundcover.com/)
 - [Yorker](https://yorkermonitoring.com)
+- [Taleseal](https://taleseal.com)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
