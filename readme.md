@@ -189,6 +189,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Agent-Hypervisor](https://github.com/imran-siddique/agent-hypervisor) - Runtime supervisor for multi-agent systems with a structured event bus (40+ event types) that exports ring transitions, saga steps, and liability events as distributed traces
 - [Manifest](https://manifest.build) ([GitHub](https://github.com/mnfst/manifest)) - Open-source real-time cost observability for AI agents. OTLP-native, accepts standard OpenTelemetry signals via HTTP (JSON and Protobuf). Tracks tokens, costs, messages, and model usage. Self-hostable and privacy-focused.
 - [traceAI](https://github.com/future-agi/traceAI) - Open-source OpenTelemetry-native instrumentation framework for AI applications that auto-instruments 20+ LLM providers and agent frameworks, capturing prompts, tokens, latency, and errors with zero code changes.
+- [DataBuff](https://github.com/databufflabs/databuff) - Open-source AI-native OpenTelemetry APM. Ingests OTLP traces, metrics, and logs and uses an LLM-powered multi-agent workspace (with MCP support) to query traces, service topology, RED metrics, and alerts in natural language.
 ### Vendors
 
 - [Aspecto](https://www.aspecto.io)
