@@ -207,6 +207,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com)
 - [Opik](https://www.comet.com/site/products/opik/)
+- [Pydantic Logfire](https://pydantic.dev/logfire)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
 - [TelemetryHub](https://telemetryhub.com/)
@@ -271,6 +272,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Future AGI](https://github.com/future-agi/future-agi) - Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.
 - [heimdall-mcp](https://github.com/enmanuelmag/heimdall-mcp) - Transparent proxy for any MCP server that intercepts JSON-RPC messages, measures latency, and exports OpenTelemetry-native spans to any OTLP-compatible backend (Jaeger, Tempo, Grafana) without modifying the original server.
 - [Tuning Engines](https://www.tuningengines.com/) - AI control and evidence plane that accepts governed model, MCP, skill, workflow, policy, approval, state-reference, and outcome traces while external runtimes keep execution ownership.
+- [Pydantic Logfire SDK](https://github.com/pydantic/logfire) - OpenTelemetry-native observability platform and SDK from the Pydantic team. Auto-instruments Pydantic AI, OpenAI, Anthropic, LangChain and other AI frameworks, emitting standard OTel spans consumable by any OTLP-compatible backend.
 - [Voight](https://github.com/Voightxyz/voight-vercel-ai) - OpenTelemetry SpanExporter for the Vercel AI SDK mapping `gen_ai.*` semconv spans to a hosted dashboard. Direct OpenAI / Anthropic wrappers ship the same spans via `otel: true` with built-in dedup.
 
 ### ROS2 / Robotics
@@ -295,6 +297,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Logz.io](https://logz.io/)
 - [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com/solutions/opentelemetry)
+- [Pydantic Logfire](https://logfire.pydantic.dev/docs/)
 - [Sematext](https://sematext.com/)
 - [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html)
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
