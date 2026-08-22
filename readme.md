@@ -217,6 +217,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [TraceKit](https://tracekit.dev) 
 - [groundcover](https://www.groundcover.com/)
 - [Yorker](https://yorkermonitoring.com)
+- [Maple](https://maple.dev)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -304,6 +305,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Uptrace](https://uptrace.dev/)
 - [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev)
+- [Maple](https://maple.dev/docs/sdks/overview/)
 
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
