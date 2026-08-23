@@ -38,6 +38,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
   * [Storage](#storage)
   * [Ingester](#ingester)
   * [UI](#ui)
+- [Tools](#tools)
 - [Newsletters](#newsletters)
 - [Podcasts](#podcasts)
 - [Events](#events)
@@ -422,6 +423,12 @@ Visualizing the distributed tracing data.
 - [Zipkin](https://zipkin.io)
 - [Teletrace](https://github.com/teletrace/teletrace)
 - [AspireDashboard](https://aspiredashboard.com/)
+
+---
+
+## Tools
+
+- [otel-budget-check](https://github.com/northstarappstudio-ops/otel-budget-check) - GitHub Action that fails PRs when OpenTelemetry telemetry exceeds your budget; catches observability cost and cardinality regressions before merge.
 
 ---
 
