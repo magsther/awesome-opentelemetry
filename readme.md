@@ -395,6 +395,7 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 ### Storage
 The OpenTelemetry collectors require a persistent storage backend.
 
+- [Bilis](https://github.com/bilisapp/bilis) - self-hostable log storage and search: OTLP/HTTP log ingest into ClickHouse with a built-in search and live-tail UI
 - [Cassandra](https://cassandra.apache.org/_/index.html) - open source NoSQL distributed database 
 - [Elastic](https://www.elastic.co) - open search and analytics solution
 - [Jaeger](https://github.com/jaegertracing/jaeger) - distributed tracing platform created by Uber Technologies
