@@ -217,6 +217,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [TraceKit](https://tracekit.dev) 
 - [groundcover](https://www.groundcover.com/)
 - [Yorker](https://yorkermonitoring.com)
+- [Bronto](https://bronto.io)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -283,6 +284,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [AWS](https://aws-otel.github.io/)
 - [Azure](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
 - [Last9]([https://last9.io/](https://last9.io/docs/integrations-opentelemetry/)) 
+- [Bronto](https://bronto.io)
 - [Dash0](https://www.dash0.com)
 - [Datadog](https://docs.datadoghq.com/tracing/setup_overview/open_standards)
 - [Dynatrace](https://www.dynatrace.com/support/help/how-to-use-dynatrace/transactions-and-services/service-monitoring-settings/opentelemetry/)
