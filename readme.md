@@ -272,6 +272,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [heimdall-mcp](https://github.com/enmanuelmag/heimdall-mcp) - Transparent proxy for any MCP server that intercepts JSON-RPC messages, measures latency, and exports OpenTelemetry-native spans to any OTLP-compatible backend (Jaeger, Tempo, Grafana) without modifying the original server.
 - [Tuning Engines](https://www.tuningengines.com/) - AI control and evidence plane that accepts governed model, MCP, skill, workflow, policy, approval, state-reference, and outcome traces while external runtimes keep execution ownership.
 - [Voight](https://github.com/Voightxyz/voight-vercel-ai) - OpenTelemetry SpanExporter for the Vercel AI SDK mapping `gen_ai.*` semconv spans to a hosted dashboard. Direct OpenAI / Anthropic wrappers ship the same spans via `otel: true` with built-in dedup.
+- [Speakeasy](https://www.speakeasy.com/) - AI control plane that captures agent sessions and MCP tool calls as OpenTelemetry records, enriches them with enterprise identity, and exports telemetry over OTLP to existing observability backends.
 
 ### ROS2 / Robotics
 - [ros-opentelemetry](https://github.com/szobov/ros-opentelemetry) - End‑to‑End Telemetry for Robotics ([ROS2](https://www.ros.org)) based on opentelemetry's Python and C++ client libraries.
