@@ -406,6 +406,7 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) - open source unified observability database for metrics, logs, and traces
 - [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend.
 - [Thanos](https://thanos.io/)
+- [Fanout](https://github.com/labstack/fanout) - open source, single-binary OpenTelemetry backend that stores traces, logs and metrics as Parquet and queries them with embedded DuckDB
 
 
 ### Ingester
