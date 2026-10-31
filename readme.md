@@ -286,6 +286,22 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 ### ROS2 / Robotics
 - [ros-opentelemetry](https://github.com/szobov/ros-opentelemetry) - End‑to‑End Telemetry for Robotics ([ROS2](https://www.ros.org)) based on opentelemetry's Python and C++ client libraries.
 
+### Infrastructure Monitoring
+
+> Infrastructure monitoring solutions and infrastructure components that natively generate or export OpenTelemetry signals.
+
+- [Apache Flink](https://nightlies.apache.org/flink/flink-docs-stable/docs/deployment/metric_reporters/) - Distributed data processing engine with built-in OpenTelemetry reporters for metrics and traces.
+- [Apache Solr](https://solr.apache.org/guide/solr/latest/deployment-guide/metrics-reporting.html) - Search infrastructure with OpenTelemetry-based metrics and native OTLP export; also supports OTLP distributed tracing.
+- [Envoy](https://www.envoyproxy.io/docs/envoy/latest/configuration/observability/stat_sinks/open_telemetry_stat_sink) - Network and service proxy that can emit statistics as OpenTelemetry metrics through its native OpenTelemetry stats sink.
+- [Kubernetes](https://kubernetes.io/docs/concepts/cluster-administration/system-traces/) - Control plane and node components can emit system traces directly using OTLP/gRPC.
+- [MariaDB Enterprise Manager](https://mariadb.com/docs/tools/mariadb-enterprise-manager/usage/monitoring/metrics/export-metrics) - Database infrastructure monitoring whose agent collects MariaDB and MaxScale metrics using OpenTelemetry and exports them over OTLP.
+- [MetricsHub](https://www.metricshub.com/) - OpenTelemetry-native infrastructure monitoring for servers, storage systems, network devices, databases, and data center equipment; exports metrics over OTLP.
+- [MinIO AIStor](https://docs.min.io/aistor/operations/monitoring/telemetry/) - Object storage platform with native OpenTelemetry distributed tracing and OTLP/HTTP export.
+- [MongoDB Atlas](https://www.mongodb.com/docs/atlas/tutorial/otel-integration/) - Exports metrics to OpenTelemetry endpoints and database and audit logs over OTLP.
+- [MySQL](https://dev.mysql.com/doc/refman/8.4/en/telemetry-metrics.html) - Database and server telemetry with native OpenTelemetry metrics export over OTLP.
+- [NGINX](https://nginx.org/en/docs/ngx_otel_module.html) - Web server and reverse proxy with native OpenTelemetry distributed tracing and OTLP/gRPC export.
+- [Traefik Proxy](https://doc.traefik.io/traefik/reference/install-configuration/observability/metrics/) - Reverse proxy and load balancer with native OpenTelemetry metrics and tracing over OTLP.
+
 ### Vendors Distro
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
 
