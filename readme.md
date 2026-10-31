@@ -291,6 +291,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 ### Coding Agent Skills
 - [OllyGarden Agent Skills for OpenTelemetry](https://github.com/ollygarden/opentelemetry-agent-skills) - Vendor-neutral [Agent Skills](https://agentskills.io) that give coding agents such as Claude Code, Cursor, and Codex current OpenTelemetry knowledge: SDK setup across languages, Collector configuration and OTTL, semantic conventions, and upgrades. Points agents at upstream sources of truth instead of copying docs.
 - [@open-multi-agent/otel](https://github.com/open-multi-agent/open-multi-agent/tree/main/packages/otel) - Optional TypeScript adapter that maps OMA TraceRecord v2 batches to OpenTelemetry spans, events, and links through an application-owned tracer or provider; the core package keeps no OpenTelemetry runtime dependency.
+- [ClawMetry](https://github.com/vivekchand/clawmetry) - Self-hosted observability for coding agents, with a built-in OTLP receiver on `/v1/traces`, `/v1/metrics` and `/v1/logs`. Point any OpenTelemetry SDK or collector at it and those spans land in the same dashboard as the agent sessions it reads from disk. [Website](https://clawmetry.com)
 
 ### ROS2 / Robotics
 - [ros-opentelemetry](https://github.com/szobov/ros-opentelemetry) - End‑to‑End Telemetry for Robotics ([ROS2](https://www.ros.org)) based on opentelemetry's Python and C++ client libraries.
