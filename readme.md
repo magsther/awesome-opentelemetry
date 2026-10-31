@@ -227,6 +227,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [TraceKit](https://tracekit.dev)
 - [Yorker](https://yorkermonitoring.com)
 - [Taleseal](https://taleseal.com)
+- [Maple](https://maple.dev)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -342,6 +343,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev)
 - [Monitorable](https://monitorable.io/)
+- [Maple](https://maple.dev/docs/sdks/overview/)
 
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
