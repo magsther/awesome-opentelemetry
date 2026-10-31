@@ -393,6 +393,7 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 
 [Telflo](https://telflo.com) - AI powered OTel Collector configuration manager with a visual drag and drop pipeline editor and OpAMP based remote management.
 [OTelBin - Online Collector Configuration Tool](https://www.otelbin.io) - OTelBin is a visual editor for the collector configuration.
+[OpenTelemetry Collector Recipes](https://github.com/Fractal-Techware/opentelemetry-collector-recipes) - Collector configurations validated in CI against a pinned otelcol-contrib version: hardened OTLP agent, file logs to Loki via OTLP and basic PII redaction with OTTL.
 
 #### Receivers
 > A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. 
