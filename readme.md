@@ -132,6 +132,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Middleware](https://middleware.io/blog/) - Get the latest Observability, openTelemetry, monitoring insights
 - [Last9](https://last9.io/blog/) - Blogs on observability, monitoring, best practices, and OpenTelemetry.
 - [Middleware](https://middleware.io/blog/) - Blog posts on Observability, OpenTelemetry, Industry news and more. 
+- [Oodle AI](https://blog.oodle.ai) - Blog posts on AI-native observability, OpenTelemetry, Engineering and more.
 - [SigNoz](https://signoz.io/opentelemetry/) - Blogs and guides to learn all things opentelemetry in one place.
 - [Taking Distributed Tracing Beyond Monitoring](https://logz.io/blog/finops-distributed-tracing/) - Observability into Your FinOps.
 - [Authenticate your OpenTelemetry Collector using Azure ADAL](https://medium.com/@wtcampos/authenticate-your-opentelemetry-collector-using-azure-45e9419d06e9) - Authentication using Azure ADAL.
@@ -208,6 +209,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Lumigo](https://lumigo.io)
 - [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com)
+- [Oodle AI](https://oodle.ai)
 - [Opik](https://www.comet.com/site/products/opik/)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
@@ -240,6 +242,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Logz.io](https://docs.logz.io/shipping/tracing-sources/opentelemetry.html) **Vendor**
 - [Metoro](https://metoro.io/docs/getting-started/introduction) **Vendor**
 - [New Relic](https://docs.newrelic.com/docs/distributed-tracing/concepts/quick-start/) **Vendor**
+- [Oodle AI](https://docs.oodle.ai/quick-start/guide) **Vendor**
 - [SigNoz](https://signoz.io/docs/introduction/) **Vendor**
 - [Splunk](https://www.splunk.com/en_us/blog/devops/getting-started-with-the-splunk-distribution-of-opentelemetry-python.html) **Vendor**
 - [Teletrace](https://docs.teletrace.io/user-guide/quick_start/) **OpenSource**
@@ -298,6 +301,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Logz.io](https://logz.io/)
 - [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com/solutions/opentelemetry)
+- [Oodle AI](https://oodle.ai)
 - [Sematext](https://sematext.com/)
 - [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html)
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
@@ -401,6 +405,7 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [Cassandra](https://cassandra.apache.org/_/index.html) - open source NoSQL distributed database 
 - [Elastic](https://www.elastic.co) - open search and analytics solution
 - [Jaeger](https://github.com/jaegertracing/jaeger) - distributed tracing platform created by Uber Technologies
+- [Oodle AI](https://oodle.ai) - AI-native observability platform for infrastructure, applications and AI agents. Compatible with OpenTelemetry, drop-in replacement for Prometheus, Grafana, Elasticsearch.
 - [Promscale](https://www.timescale.com/promscale) - an open source observability backend for traces and metrics ** deprecated **
 - [SigNoz](https://signoz.io/) - Open Source Metrics, Traces and Logs in a single pane
 - [SkyWalking](https://github.com/apache/skywalking) - open source APM system
@@ -421,6 +426,7 @@ Visualizing the distributed tracing data.
 
 - [Jaeger](https://github.com/jaegertracing/jaeger-ui)
 - [KubeStellar Console](https://github.com/kubestellar/console) - Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.
+- [Oodle AI](https://oodle.ai) - AI-native observability platform for infrastructure, applications and AI agents. Compatible with OpenTelemetry, drop-in replacement for Prometheus, Grafana, Elasticsearch.
 - [TelemetryHub](https://telemetryhub.com/)
 - [Zipkin](https://zipkin.io)
 - [Teletrace](https://github.com/teletrace/teletrace)
