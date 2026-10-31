@@ -222,6 +222,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [TelemetryHub](https://telemetryhub.com/)
 - [TraceKit](https://tracekit.dev)
 - [Yorker](https://yorkermonitoring.com)
+- [Taleseal](https://taleseal.com)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
