@@ -453,6 +453,7 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend.
 - [Thanos](https://thanos.io/)
 - [Bilis](https://github.com/bilisapp/bilis) - self-hostable log storage and search: OTLP/HTTP log ingest into ClickHouse with a built-in search and live-tail UI
+- [Fanout](https://github.com/labstack/fanout) - open source, single-binary OpenTelemetry backend that stores traces, logs and metrics as Parquet and queries them with embedded DuckDB
 
 
 ### Ingester
