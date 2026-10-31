@@ -195,6 +195,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Manifest](https://manifest.build) ([GitHub](https://github.com/mnfst/manifest)) - Open-source real-time cost observability for AI agents. OTLP-native, accepts standard OpenTelemetry signals via HTTP (JSON and Protobuf). Tracks tokens, costs, messages, and model usage. Self-hostable and privacy-focused.
 - [traceAI](https://github.com/future-agi/traceAI) - Open-source OpenTelemetry-native instrumentation framework for AI applications that auto-instruments 20+ LLM providers and agent frameworks, capturing prompts, tokens, latency, and errors with zero code changes.
 - [MB3R Stack](https://github.com/MB3R-Lab/mb3r-stack) - Open-source model-based resilience toolchain that uses OpenTelemetry trace evidence for topology discovery, virtual failure simulation, continuous resilience assessment, and pre-release risk analysis.
+- [playwright-opentelemetry](https://github.com/endformdev/playwright-opentelemetry) - OpenTelemetry traces from Playwright tests - with context propagation, OTLP export, and a viewer that pairs browser screenshots with backend spans.
+- [Flare](https://github.com/aminparsa18/Flare.Net) - Self-hosted, OTLP-native observability platform for .NET. Logs, traces and metrics correlated in one UI, stored in ClickHouse, with alerting and a .NET Aspire hosting integration.
 ### Vendors
 
 - [Aspecto](https://www.aspecto.io)
@@ -220,12 +222,14 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Oodle AI](https://oodle.ai)
 - [Opik](https://www.comet.com/site/products/opik/)
 - [Sematext](https://sematext.com/)
+- [Pydantic Logfire](https://pydantic.dev/logfire)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
 - [TelemetryHub](https://telemetryhub.com/)
 - [TraceKit](https://tracekit.dev)
 - [Yorker](https://yorkermonitoring.com)
 - [Taleseal](https://taleseal.com)
+- [Maple](https://maple.dev)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
@@ -282,8 +286,11 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [heimdall-mcp](https://github.com/enmanuelmag/heimdall-mcp) - Transparent proxy for any MCP server that intercepts JSON-RPC messages, measures latency, and exports OpenTelemetry-native spans to any OTLP-compatible backend (Jaeger, Tempo, Grafana) without modifying the original server.
 - [Tuning Engines](https://www.tuningengines.com/) - AI control and evidence plane that accepts governed model, MCP, skill, workflow, policy, approval, state-reference, and outcome traces while external runtimes keep execution ownership.
 - [Traccia](https://traccia.ai) - OpenTelemetry-native observability, governance, and compliance for AI agents and LLM applications. Integrates with OpenAI Agents SDK, CrewAI, Langchain, Claude Code, and more.
+- [Pydantic Logfire SDK](https://github.com/pydantic/logfire) - OpenTelemetry-native observability platform and SDK from the Pydantic team. Auto-instruments Pydantic AI, OpenAI, Anthropic, LangChain and other AI frameworks, emitting standard OTel spans consumable by any OTLP-compatible backend.
 - [Voight](https://github.com/Voightxyz/voight-vercel-ai) - OpenTelemetry SpanExporter for the Vercel AI SDK mapping `gen_ai.*` semconv spans to a hosted dashboard. Direct OpenAI / Anthropic wrappers ship the same spans via `otel: true` with built-in dedup.
 - [DProvenanceKit](https://github.com/Therealdk8890/DProvenanceKit) - Swift library for reasoning observability and regression testing of AI agents. Its zero-dependency DProvenanceOTel bridge maps trace runs to OTLP/JSON and promotes Apple FoundationModels calls to `gen_ai.*` semconv spans, exporting to Langfuse or any OTLP/HTTP collector (Apache 2.0).
+- [@open-multi-agent/otel](https://github.com/open-multi-agent/open-multi-agent/tree/main/packages/otel) - Optional TypeScript adapter that maps OMA TraceRecord v2 batches to OpenTelemetry spans, events, and links through an application-owned tracer or provider; the core package keeps no OpenTelemetry runtime dependency.
+- [ClawMetry](https://github.com/vivekchand/clawmetry) - Self-hosted observability for coding agents, with a built-in OTLP receiver on `/v1/traces`, `/v1/metrics` and `/v1/logs`. Point any OpenTelemetry SDK or collector at it and those spans land in the same dashboard as the agent sessions it reads from disk. [Website](https://clawmetry.com)
 
 ### Coding Agent Skills
 - [OllyGarden Agent Skills for OpenTelemetry](https://github.com/ollygarden/opentelemetry-agent-skills) - Vendor-neutral [Agent Skills](https://agentskills.io) that give coding agents such as Claude Code, Cursor, and Codex current OpenTelemetry knowledge: SDK setup across languages, Collector configuration and OTTL, semantic conventions, and upgrades. Points agents at upstream sources of truth instead of copying docs.
@@ -329,6 +336,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com/solutions/opentelemetry)
 - [Oodle AI](https://oodle.ai)
+- [Pydantic Logfire](https://logfire.pydantic.dev/docs/)
 - [Sematext](https://sematext.com/)
 - [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html)
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
@@ -339,6 +347,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev)
 - [Monitorable](https://monitorable.io/)
+- [Maple](https://maple.dev/docs/sdks/overview/)
 
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
@@ -445,6 +454,7 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [Tempo](https://grafana.com/oss/tempo/) - Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend.
 - [Thanos](https://thanos.io/)
 - [Bilis](https://github.com/bilisapp/bilis) - self-hostable log storage and search: OTLP/HTTP log ingest into ClickHouse with a built-in search and live-tail UI
+- [Fanout](https://github.com/labstack/fanout) - open source, single-binary OpenTelemetry backend that stores traces, logs and metrics as Parquet and queries them with embedded DuckDB
 
 
 ### Ingester
