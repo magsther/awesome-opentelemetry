@@ -220,6 +220,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Oodle AI](https://oodle.ai)
 - [Opik](https://www.comet.com/site/products/opik/)
 - [Sematext](https://sematext.com/)
+- [Pydantic Logfire](https://pydantic.dev/logfire)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
 - [TelemetryHub](https://telemetryhub.com/)
@@ -282,6 +283,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [heimdall-mcp](https://github.com/enmanuelmag/heimdall-mcp) - Transparent proxy for any MCP server that intercepts JSON-RPC messages, measures latency, and exports OpenTelemetry-native spans to any OTLP-compatible backend (Jaeger, Tempo, Grafana) without modifying the original server.
 - [Tuning Engines](https://www.tuningengines.com/) - AI control and evidence plane that accepts governed model, MCP, skill, workflow, policy, approval, state-reference, and outcome traces while external runtimes keep execution ownership.
 - [Traccia](https://traccia.ai) - OpenTelemetry-native observability, governance, and compliance for AI agents and LLM applications. Integrates with OpenAI Agents SDK, CrewAI, Langchain, Claude Code, and more.
+- [Pydantic Logfire SDK](https://github.com/pydantic/logfire) - OpenTelemetry-native observability platform and SDK from the Pydantic team. Auto-instruments Pydantic AI, OpenAI, Anthropic, LangChain and other AI frameworks, emitting standard OTel spans consumable by any OTLP-compatible backend.
 - [Voight](https://github.com/Voightxyz/voight-vercel-ai) - OpenTelemetry SpanExporter for the Vercel AI SDK mapping `gen_ai.*` semconv spans to a hosted dashboard. Direct OpenAI / Anthropic wrappers ship the same spans via `otel: true` with built-in dedup.
 - [DProvenanceKit](https://github.com/Therealdk8890/DProvenanceKit) - Swift library for reasoning observability and regression testing of AI agents. Its zero-dependency DProvenanceOTel bridge maps trace runs to OTLP/JSON and promotes Apple FoundationModels calls to `gen_ai.*` semconv spans, exporting to Langfuse or any OTLP/HTTP collector (Apache 2.0).
 
@@ -329,6 +331,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Metoro](https://metoro.io)
 - [New Relic](https://newrelic.com/solutions/opentelemetry)
 - [Oodle AI](https://oodle.ai)
+- [Pydantic Logfire](https://logfire.pydantic.dev/docs/)
 - [Sematext](https://sematext.com/)
 - [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html)
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
