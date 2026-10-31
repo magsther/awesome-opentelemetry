@@ -294,6 +294,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### Coding Agent Skills
 - [OllyGarden Agent Skills for OpenTelemetry](https://github.com/ollygarden/opentelemetry-agent-skills) - Vendor-neutral [Agent Skills](https://agentskills.io) that give coding agents such as Claude Code, Cursor, and Codex current OpenTelemetry knowledge: SDK setup across languages, Collector configuration and OTTL, semantic conventions, and upgrades. Points agents at upstream sources of truth instead of copying docs.
+- [Atomic Agents](https://github.com/eigenwise/atomic-agents) - Python agent framework with built-in OpenTelemetry instrumentation. Emits GenAI semantic-convention spans (invoke_agent, execute_tool, chat) with only opentelemetry-api installed, so traces go to any OTLP backend.
 
 ### ROS2 / Robotics
 - [ros-opentelemetry](https://github.com/szobov/ros-opentelemetry) - End‑to‑End Telemetry for Robotics ([ROS2](https://www.ros.org)) based on opentelemetry's Python and C++ client libraries.
