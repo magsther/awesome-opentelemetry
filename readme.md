@@ -275,6 +275,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### ROS2 / Robotics
 - [ros-opentelemetry](https://github.com/szobov/ros-opentelemetry) - End‑to‑End Telemetry for Robotics ([ROS2](https://www.ros.org)) based on opentelemetry's Python and C++ client libraries.
+- [ros2_pulse](https://github.com/TanayK07/ros2_pulse) - LD_PRELOAD library that counts per-topic publish and callback rates in ROS 2 processes without code changes, with an exporter that pushes them as OTLP metrics or serves them to Prometheus.
 
 ### Vendors Distro
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
