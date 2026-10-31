@@ -176,6 +176,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Distributed Tracing for Root Cause Analysis](https://tracekit.dev/distributed-tracing-root-cause-analysis/) - How distributed tracing speeds up root cause analysis in production systems.
 - [Understanding OpenTelemetry Metrics: Type, Models and Best Practices](https://middleware.io/blog/opentelemetry-metrics/)
 - [OpenTelemetry Logs: A Complete Guide](https://middleware.io/blog/opentelemetry-logs/)
+- [OpenTelemetry Explained: Traces, Metrics, Logs and the Collector](https://www.alekseialeinikov.com/en/blog/topics/devops/opentelemetry-explained-collector-otlp-tracing) - How the API, SDK, OTLP and Collector move data, agent vs gateway deployments, sampling and common production mistakes.
 ## Distributed Tracing Solutions
 
 ### Open Source
