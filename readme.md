@@ -407,6 +407,7 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 
 [List of supported processors](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor)
 
+- [TraceShrink](https://github.com/TimurRakhmatullin86/traceshrink) - Cost-aware OpenTelemetry Collector processor. Keep expensive traces, drop cheap ones. Save up to 98% storage.
 
 #### Exporters
 > An exporter is how you send data to one or more backends/destinations. Exporters may support one or more data sources.
