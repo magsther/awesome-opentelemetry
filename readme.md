@@ -338,6 +338,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Uptrace](https://uptrace.dev/)
 - [Middleware](https://middleware.io/)
 - [TraceKit](https://tracekit.dev)
+- [Monitorable](https://monitorable.io/)
 
 
 [Full list of vendors that supports OpenTelemetry](https://opentelemetry.io/vendors/)
