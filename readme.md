@@ -475,6 +475,7 @@ Visualizing the distributed tracing data.
 - [Zipkin](https://zipkin.io)
 - [Teletrace](https://github.com/teletrace/teletrace)
 - [AspireDashboard](https://aspiredashboard.com/)
+- [OtlpDashboard](https://adiakys.github.io/OtlpDashboard/) ([GitHub](https://github.com/Adiakys/OtlpDashboard)) - Self-hosted OTLP receiver and viewer for traces, logs and metrics in a single container. Stores telemetry in SQLite, PostgreSQL or SQL Server, with custom dashboards and a read-only MCP server.
 
 ---
 
