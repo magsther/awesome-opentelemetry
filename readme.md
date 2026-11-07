@@ -326,6 +326,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Azure](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
 - [BetterDB Monitor](https://docs.betterdb.com/opentelemetry)
 - [Last9]([https://last9.io/](https://last9.io/docs/integrations-opentelemetry/)) 
+- [Bronto](https://bronto.io)
 - [Dash0](https://www.dash0.com)
 - [Datadog](https://docs.datadoghq.com/tracing/setup_overview/open_standards)
 - [Dynatrace](https://www.dynatrace.com/support/help/how-to-use-dynatrace/transactions-and-services/service-monitoring-settings/opentelemetry/)
