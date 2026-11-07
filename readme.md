@@ -230,6 +230,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Yorker](https://yorkermonitoring.com)
 - [Taleseal](https://taleseal.com)
 - [Maple](https://maple.dev)
+- [LogBrew](https://logbrew.co)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
