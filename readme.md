@@ -484,6 +484,7 @@ Visualizing the distributed tracing data.
 ## Tools
 
 - [otel-budget-check](https://github.com/northstarappstudio-ops/otel-budget-check) - GitHub Action that fails PRs when OpenTelemetry telemetry exceeds your budget; catches observability cost and cardinality regressions before merge.
+- [logspend](https://github.com/hamarshehmhmd/logspend) - CLI that groups a log sample into patterns, prices each at vendor rates and generates Collector filter processor (OTTL) drop rules, plus Vector and Fluent Bit equivalents; a simulate step fails CI if any warn/error line would be dropped.
 
 ---
 
