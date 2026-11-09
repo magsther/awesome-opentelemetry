@@ -223,6 +223,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Opik](https://www.comet.com/site/products/opik/)
 - [Sematext](https://sematext.com/)
 - [Pydantic Logfire](https://pydantic.dev/logfire)
+- [Ritele](https://ritele.io)
 - [SigNoz](https://signoz.io/)
 - [Splunk](https://www.splunk.com)
 - [TelemetryHub](https://telemetryhub.com/)
