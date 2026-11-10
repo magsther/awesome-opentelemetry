@@ -296,6 +296,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [hashspan](https://github.com/selimaytac/hashspan) - OpenTelemetry instrumentation for AI agents that send on-chain transactions (viem, Coinbase CDP, x402). Records send and confirm spans keyed by the transaction hash, with fees, revert reasons and agent identity, inside the agent's own trace.
 - [telemetry.dev](https://telemetry.dev/) - OpenTelemetry-native observability for LLM and agent apps; accepts OTLP/HTTP from any language and attaches tokens, cost, latency, and errors to every span.
 - [Cognipeer Agent SDK](https://github.com/Cognipeer/agent-sdk) - TypeScript agent runtime that can export a run's trace to any OTLP/HTTP collector as OpenTelemetry GenAI spans (`invoke_agent`, `chat`, `execute_tool`), with no runtime dependency on the OpenTelemetry packages.
+- [Agent Adapter](https://github.com/VeloceAI/agent-adapter) - Apache-2.0 Python executor that runs one tool across 18+ agent frameworks or MCP and emits OpenTelemetry traces for every tool call, approval, budget and cost event.
 
 ### Coding Agent Skills
 - [OllyGarden Agent Skills for OpenTelemetry](https://github.com/ollygarden/opentelemetry-agent-skills) - Vendor-neutral [Agent Skills](https://agentskills.io) that give coding agents such as Claude Code, Cursor, and Codex current OpenTelemetry knowledge: SDK setup across languages, Collector configuration and OTTL, semantic conventions, and upgrades. Points agents at upstream sources of truth instead of copying docs.
