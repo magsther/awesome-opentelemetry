@@ -484,6 +484,7 @@ Visualizing the distributed tracing data.
 ## Tools
 
 - [otel-budget-check](https://github.com/northstarappstudio-ops/otel-budget-check) - GitHub Action that fails PRs when OpenTelemetry telemetry exceeds your budget; catches observability cost and cardinality regressions before merge.
+- [Forge](https://github.com/reliant-labs/forge) - Apache-2.0 Go + React framework whose generated Connect RPC services emit OpenTelemetry traces, metrics and logs by default (a span per RPC, per service method and per SQL query), configured only through the standard `OTEL_EXPORTER_OTLP_*` variables. `forge env up dev` starts a local OTLP collector with ClickHouse and HyperDX already receiving them.
 
 ---
 
