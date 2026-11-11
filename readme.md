@@ -231,6 +231,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Taleseal](https://taleseal.com)
 - [Maple](https://maple.dev)
 - [LogBrew](https://logbrew.co)
+- [Telemio](https://telemio.sh)
 
 ## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
