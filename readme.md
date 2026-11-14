@@ -483,6 +483,7 @@ Visualizing the distributed tracing data.
 
 ## Tools
 
+- [agentest](https://github.com/srpadmanabhuni/agentest) - Offline, deterministic tests for AI agents: 130 checks on OpenTelemetry GenAI traces, A2A agent cards and MCP tools, with pass/fail/n/a evidence and JUnit/SARIF output for CI. Apache-2.0.
 - [otel-budget-check](https://github.com/northstarappstudio-ops/otel-budget-check) - GitHub Action that fails PRs when OpenTelemetry telemetry exceeds your budget; catches observability cost and cardinality regressions before merge.
 
 ---
