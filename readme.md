@@ -461,6 +461,7 @@ The OpenTelemetry collectors require a persistent storage backend.
 - [Thanos](https://thanos.io/)
 - [Bilis](https://github.com/bilisapp/bilis) - self-hostable log storage and search: OTLP/HTTP log ingest into ClickHouse with a built-in search and live-tail UI
 - [Fanout](https://github.com/labstack/fanout) - open source, single-binary OpenTelemetry backend that stores traces, logs and metrics as Parquet and queries them with embedded DuckDB
+- [Obzly](https://obzly.com) ([GitHub](https://github.com/obzly/obzly)) - open source (Apache 2.0), self-hosted OTLP backend for logs, traces and metrics, stored as Parquet on S3-compatible object storage, with PromQL, dashboards, alerts and synthetic monitoring
 
 
 ### Ingester
