@@ -177,6 +177,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Understanding OpenTelemetry Metrics: Type, Models and Best Practices](https://middleware.io/blog/opentelemetry-metrics/)
 - [OpenTelemetry Logs: A Complete Guide](https://middleware.io/blog/opentelemetry-logs/)
 - [OpenTelemetry Explained: Traces, Metrics, Logs and the Collector](https://www.alekseialeinikov.com/en/blog/topics/devops/opentelemetry-explained-collector-otlp-tracing) - How the API, SDK, OTLP and Collector move data, agent vs gateway deployments, sampling and common production mistakes.
+- [Prometheus 3 + OpenTelemetry: OTLP Ingestion, UTF-8 Metrics & Migration](https://alexandre-vazquez.com/prometheus-3-opentelemetry/) - Native OTLP ingestion and UTF-8 metric names in Prometheus 3, sending OTel SDK metrics directly vs through the Collector, and a migration checklist from 2.x.
 ## Distributed Tracing Solutions
 
 ### Open Source
