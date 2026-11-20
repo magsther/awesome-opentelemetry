@@ -201,6 +201,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Aspecto](https://www.aspecto.io)
 - [AWS X-Ray](https://aws.amazon.com/xray/)
+- [Axiom](https://axiom.co)
 - [Bronto](https://bronto.io)
 - [Coralogix](https://coralogix.com/)
 - [Dash0](https://www.dash0.com)
@@ -325,6 +326,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 - [Aspecto](https://www.aspecto.io/)
 - [AWS](https://aws-otel.github.io/)
+- [Axiom](https://axiom.co/docs/send-data/opentelemetry)
 - [Azure](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
 - [BetterDB Monitor](https://docs.betterdb.com/opentelemetry)
 - [Last9]([https://last9.io/](https://last9.io/docs/integrations-opentelemetry/)) 
