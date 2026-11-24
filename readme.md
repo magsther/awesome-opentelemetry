@@ -483,6 +483,7 @@ Visualizing the distributed tracing data.
 
 ## Tools
 
+- [OBSYNX](https://github.com/adilsoncruz/obsynx) - Zero-code business observability and GitOps control plane for OpenTelemetry.
 - [otel-budget-check](https://github.com/northstarappstudio-ops/otel-budget-check) - GitHub Action that fails PRs when OpenTelemetry telemetry exceeds your budget; catches observability cost and cardinality regressions before merge.
 
 ---
