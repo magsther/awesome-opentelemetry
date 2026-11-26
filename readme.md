@@ -493,6 +493,7 @@ Visualizing the distributed tracing data.
 - [The new stack](https://thenewstack.io/category/monitoring/) - A newsletter digest of the week’s most important stories & analyses.
 - [Code RED Newsletter](https://www.dash0.com/newsletter) - The Code RED Newsletter brings you adoption stories, deep technical explorations, hands-on tips, and community highlights.
 - [Observability 360](https://observability-360.com/) - A fortnightly briefing read by professionals at the world's best observability companies. News, products, how-to's and more
+- [AI SRE Weekly](https://www.linkedin.com/company/ai-sre-weekly/) - Weekly newsletter tracking the AI SRE category: vendor launches, funding, incident-automation research and what changed for on-call teams.
 
 ## Podcasts
 - [Changelog](https://changelog.com/topic/observability)
